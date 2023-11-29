@@ -348,6 +348,34 @@
     )
   )
 
+  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 135.89 73.66 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1bacf0e6-ade7-4977-83c7-f15805437c90)
+    (property "Reference" "J1" (at 138.43 73.025 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "A" (at 138.43 75.565 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_My:Power_Wire" (at 135.89 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 135.89 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8e04592f-a30e-4e2e-af5f-3d185036f395))
+    (instances
+      (project "Плата датчиков"
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
+          (reference "J1") (unit 1)
+        )
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/000644ca-6534-4b7d-8782-682dfa02d17c"
+          (reference "J5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 100.33 135.89 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 563509ed-ae52-404b-9356-155960a128d9)
