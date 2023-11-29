@@ -732,7 +732,7 @@
     (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 63.5 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 63.5 30.48 0)
+    (property "Datasheet" "https://www.novosns.com/Public/Uploads/uploadfile3/files/20220726/NSM3011_3012_3013_DatasheetV1.0EN.pdf" (at 63.5 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a3223ee4-5cd3-45e5-89ed-1e071f01dfb8))

@@ -441,7 +441,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../3D модели/Плата датчиков.step",
+      "step": "3D модели/Плата датчиков.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
