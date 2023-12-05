@@ -496,6 +496,10 @@
     [
       "000644ca-6534-4b7d-8782-682dfa02d17c",
       "Connectors"
+    ],
+    [
+      "16cf1e70-178e-470d-840c-1e2fbd362653",
+      "Coil_Temperature"
     ]
   ],
   "text_variables": {}
