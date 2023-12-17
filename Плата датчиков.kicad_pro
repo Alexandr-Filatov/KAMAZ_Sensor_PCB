@@ -446,7 +446,7 @@
       "step": "3D модели/Плата датчиков.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "gost_landscape.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -472,8 +472,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
-    "plot_directory": "",
+    "page_layout_descr_file": "gost_landscape.kicad_wks",
+    "plot_directory": "Документы/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -486,22 +486,6 @@
     [
       "69677e3f-3942-4c93-9a5c-92669e2df5eb",
       ""
-    ],
-    [
-      "7ff62645-be5c-4be3-87e4-7c5564364678",
-      "Rotary_Position_Sensor"
-    ],
-    [
-      "17322c81-8edb-4faf-ac73-b5b11066db49",
-      "Current_Sensors"
-    ],
-    [
-      "000644ca-6534-4b7d-8782-682dfa02d17c",
-      "Connectors"
-    ],
-    [
-      "16cf1e70-178e-470d-840c-1e2fbd362653",
-      "Coil_Temperature"
     ]
   ],
   "text_variables": {}
