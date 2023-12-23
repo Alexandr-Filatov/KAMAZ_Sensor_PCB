@@ -81,7 +81,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -486,6 +486,26 @@
     [
       "69677e3f-3942-4c93-9a5c-92669e2df5eb",
       ""
+    ],
+    [
+      "5690081b-3349-4182-b71e-e3d982c64d0f",
+      "Temperature"
+    ],
+    [
+      "0447fd9f-08b2-4399-8f4a-dc90b927aeac",
+      "Current_Sensoors"
+    ],
+    [
+      "bcde038a-9c61-4256-93bc-e646290f2e91",
+      "Rotary_Position_Sensor"
+    ],
+    [
+      "555e8538-1d60-4a85-8162-4c8254aec889",
+      "Connectors"
+    ],
+    [
+      "25ee8137-5200-4a92-a72b-f10625be9855",
+      "Conection_list"
     ]
   ],
   "text_variables": {}
