@@ -954,7 +954,7 @@
           (reference "J3") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J11") (unit 1)
+          (reference "J3") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J23") (unit 1)
@@ -966,7 +966,7 @@
   (symbol (lib_id "4900:4900") (at 163.83 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5684face-68e0-4c95-b429-2e8ca2dcf6af)
-    (property "Reference" "J12" (at 180.34 69.85 0)
+    (property "Reference" "J12" (at 180.34 71.7549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4900" (at 180.34 72.39 0)
@@ -1007,7 +1007,7 @@
           (reference "J12") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J2") (unit 1)
+          (reference "J12") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J16") (unit 1)
@@ -1055,7 +1055,7 @@
   (symbol (lib_id "4900:4900") (at 204.47 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83de68d1-c6e7-4fad-bf4a-d45ad8239aca)
-    (property "Reference" "J11" (at 220.98 87.63 0)
+    (property "Reference" "J11" (at 220.98 89.5349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4900" (at 220.98 90.17 0)
@@ -1096,7 +1096,7 @@
           (reference "J11") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J14") (unit 1)
+          (reference "J11") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J26") (unit 1)
@@ -1106,9 +1106,9 @@
   )
 
   (symbol (lib_id "4900:4900") (at 124.46 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 88ac7c58-a619-40cc-8ecc-cb4b69edee50)
-    (property "Reference" "J6" (at 140.97 78.74 0)
+    (property "Reference" "J6" (at 140.97 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4900" (at 140.97 81.28 0)
@@ -1180,7 +1180,7 @@
           (reference "J2") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J10") (unit 1)
+          (reference "J2") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J22") (unit 1)
@@ -1192,7 +1192,7 @@
   (symbol (lib_id "4900:4900") (at 163.83 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e4be74a-1bb5-4273-9dbc-cf13a7f9f1c8)
-    (property "Reference" "J14" (at 180.34 87.63 0)
+    (property "Reference" "J14" (at 180.34 89.5349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4900" (at 180.34 90.17 0)
@@ -1233,7 +1233,7 @@
           (reference "J14") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J13") (unit 1)
+          (reference "J14") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J25") (unit 1)
@@ -1245,7 +1245,7 @@
   (symbol (lib_id "4900:4900") (at 124.46 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae5c4302-c8b6-4c7c-ba14-7e64830eacba)
-    (property "Reference" "J5" (at 140.97 69.85 0)
+    (property "Reference" "J5" (at 140.97 71.7549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4900" (at 140.97 72.39 0)
@@ -1286,7 +1286,7 @@
           (reference "J5") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J1") (unit 1)
+          (reference "J5") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J15") (unit 1)
@@ -1332,7 +1332,7 @@
   (symbol (lib_id "4900:4900") (at 204.47 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b93d71b8-697e-4ecf-ba44-9668482d8822)
-    (property "Reference" "J9" (at 220.98 69.85 0)
+    (property "Reference" "J9" (at 220.98 71.7549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4900" (at 220.98 72.39 0)
@@ -1373,7 +1373,7 @@
           (reference "J9") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J3") (unit 1)
+          (reference "J7") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J17") (unit 1)
@@ -1416,7 +1416,7 @@
   (symbol (lib_id "4900:4900") (at 163.83 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2305888-b448-48b9-bf06-c5f979e9cb6b)
-    (property "Reference" "J13" (at 180.34 78.74 0)
+    (property "Reference" "J13" (at 180.34 80.6449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4900" (at 180.34 81.28 0)
@@ -1457,7 +1457,7 @@
           (reference "J13") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J7") (unit 1)
+          (reference "J13") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J20") (unit 1)
@@ -1469,7 +1469,7 @@
   (symbol (lib_id "4900:4900") (at 124.46 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdddbc1b-c66c-414c-90cc-ec9842f58d3e)
-    (property "Reference" "J7" (at 140.97 87.63 0)
+    (property "Reference" "J7" (at 140.97 89.5349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4900" (at 140.97 90.17 0)
@@ -1510,7 +1510,7 @@
           (reference "J7") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J12") (unit 1)
+          (reference "J9") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J24") (unit 1)
@@ -1522,7 +1522,7 @@
   (symbol (lib_id "4900:4900") (at 204.47 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2aacf6e-1e74-4c7c-b928-8bff61480103)
-    (property "Reference" "J10" (at 220.98 78.74 0)
+    (property "Reference" "J10" (at 220.98 80.6449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4900" (at 220.98 81.28 0)
@@ -1563,7 +1563,7 @@
           (reference "J10") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J9") (unit 1)
+          (reference "J10") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J21") (unit 1)
@@ -1625,7 +1625,7 @@
           (reference "J1") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J5") (unit 1)
+          (reference "J1") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
           (reference "J18") (unit 1)
