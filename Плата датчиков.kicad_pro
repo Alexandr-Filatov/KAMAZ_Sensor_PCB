@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 3.0,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -473,7 +473,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "gost_landscape.kicad_wks",
-    "plot_directory": "../../../KAMAZ_Doc/Плата датчиков/Схема электрическая чертежи/",
+    "plot_directory": "../../Отчетность/Плата датчиков/Схема электрическая чертежи/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

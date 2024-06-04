@@ -7,7 +7,7 @@
   (title_block
     (title "Измерительный узел")
     (date "2023-12-14")
-    (comment 1 "МПСТ.76721.758764.03.Э3.М")
+    (comment 1 "МПСТ.76721.758764.03.М Э3")
     (comment 2 "Филатов")
     (comment 3 "Нестеров")
     (comment 4 "Келлер")
@@ -19,6 +19,14 @@
   )
 
 
+  (text "Схема электрическая\n" (at 189.865 183.515 0)
+    (effects (font (size 2.5 2.5)) (justify left bottom))
+    (uuid 220b33a3-244f-403e-97cd-e4a9517028c9)
+  )
+  (text "принципиальная\n" (at 193.675 186.69 0)
+    (effects (font (size 2.5 2.5)) (justify left bottom))
+    (uuid 85f910a9-fd18-4487-bfdd-4571b552e6a8)
+  )
   (text "Схема электрическая" (at 313.055 272.415 0)
     (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid 8f9c805b-f98e-492c-b8db-b8f85b977ed1)

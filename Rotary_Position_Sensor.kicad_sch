@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (comment 1 "МПСТ.76721.758764.03.Э3.М")
+    (comment 1 "МПСТ.76721.758764.03.М Э3")
   )
 
   (lib_symbols
@@ -263,8 +263,8 @@
   (junction (at 131.445 104.14) (diameter 0) (color 0 0 0 0)
     (uuid c48b1f95-6d01-4791-8167-5cd4b3698217)
   )
-  (junction (at 150.495 111.76) (diameter 0) (color 0 0 0 0)
-    (uuid dd4f779b-c04f-43da-b78c-e90aa294ded8)
+  (junction (at 131.445 111.76) (diameter 0) (color 0 0 0 0)
+    (uuid dd687efd-e387-4288-bd4d-cf708b776bd7)
   )
 
   (no_connect (at 154.305 101.6) (uuid 1890374f-344c-4adf-b037-15bbcf7ada87))
@@ -325,7 +325,7 @@
     (stroke (width 0) (type default))
     (uuid 61bac69a-d54e-4f31-aa5e-0e001b141816)
   )
-  (wire (pts (xy 174.625 115.57) (xy 150.495 115.57))
+  (wire (pts (xy 131.445 115.57) (xy 174.625 115.57))
     (stroke (width 0) (type default))
     (uuid 64c16e4f-ed8b-4d9d-95fd-12b8c869d155)
   )
@@ -369,10 +369,6 @@
     (stroke (width 0) (type default))
     (uuid af9f51b0-0f20-4078-b350-f25dc68554eb)
   )
-  (wire (pts (xy 150.495 115.57) (xy 150.495 111.76))
-    (stroke (width 0) (type default))
-    (uuid bea46691-d434-4576-81e8-750c3f3cf10d)
-  )
   (wire (pts (xy 169.545 104.14) (xy 174.625 104.14))
     (stroke (width 0) (type default))
     (uuid c9cd9dd3-f3fb-4a16-8892-46cb08d5f4e1)
@@ -396,6 +392,10 @@
   (wire (pts (xy 150.495 104.14) (xy 154.305 104.14))
     (stroke (width 0) (type default))
     (uuid fd28cccb-6295-4cfd-b633-abca1b956422)
+  )
+  (wire (pts (xy 131.445 115.57) (xy 131.445 111.76))
+    (stroke (width 0) (type default))
+    (uuid fef6ae5a-b696-4f69-aa93-e399379f12c9)
   )
 
   (rectangle (start 113.665 78.74) (end 197.485 125.73)
