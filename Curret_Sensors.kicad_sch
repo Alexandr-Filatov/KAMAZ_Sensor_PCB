@@ -207,11 +207,11 @@
         )
       )
     )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+3.3VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3.3V" (at 0 3.556 0)
+      (property "Value" "+3.3VA" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -223,10 +223,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3VA\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3.3V_0_1"
+      (symbol "+3.3VA_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -252,18 +252,18 @@
           (fill (type none))
         )
       )
-      (symbol "+3.3V_1_1"
+      (symbol "+3.3VA_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (name "+3.3VA" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GNDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GND" (at 0 -3.81 0)
+      (property "Value" "GNDA" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -275,10 +275,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GNDA\" , analog ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GND_0_1"
+      (symbol "GNDA_0_1"
         (polyline
           (pts
             (xy 0 0)
@@ -292,9 +292,9 @@
           (fill (type none))
         )
       )
-      (symbol "GND_1_1"
+      (symbol "GNDA_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
+          (name "GNDA" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -307,11 +307,29 @@
   (junction (at 139.7 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 175936b6-aeae-457f-87f6-eb05031054d3)
   )
+  (junction (at 199.39 101.6) (diameter 0) (color 0 0 0 0)
+    (uuid 1eb47f56-8682-49e8-80d0-a068891526f2)
+  )
+  (junction (at 127 101.6) (diameter 0) (color 0 0 0 0)
+    (uuid 3d93ea8e-b9a8-471a-99b4-c094f8eef9f1)
+  )
+  (junction (at 127 93.98) (diameter 0) (color 0 0 0 0)
+    (uuid 4db9ef92-3c35-4ff1-a09f-4998eed453ee)
+  )
   (junction (at 229.87 97.79) (diameter 0) (color 0 0 0 0)
     (uuid 4e82603f-5d5e-4061-ba67-b083bf58a3d7)
   )
+  (junction (at 54.61 101.6) (diameter 0) (color 0 0 0 0)
+    (uuid 5e633910-e53f-48b8-9dc2-6f9aa5e621f7)
+  )
+  (junction (at 199.39 93.98) (diameter 0) (color 0 0 0 0)
+    (uuid 6627d2a0-7675-4b77-804e-6cbd755baff3)
+  )
   (junction (at 59.69 101.6) (diameter 0) (color 0 0 0 0)
     (uuid 72706ed5-299b-4436-9243-5881b90d1154)
+  )
+  (junction (at 54.61 93.98) (diameter 0) (color 0 0 0 0)
+    (uuid 73676991-2529-4b05-b2b4-997f6d057bf5)
   )
   (junction (at 85.09 97.79) (diameter 0) (color 0 0 0 0)
     (uuid 7cdc99de-1bce-442b-90ef-c36a1a27ae79)
@@ -377,6 +395,10 @@
   (wire (pts (xy 142.24 105.41) (xy 142.24 106.68))
     (stroke (width 0) (type default))
     (uuid 1412a57b-eba3-4f6a-ae35-f2cee25a1674)
+  )
+  (wire (pts (xy 123.825 101.6) (xy 127 101.6))
+    (stroke (width 0) (type default))
+    (uuid 1521d07f-deba-4ffe-9c0a-c4ad28d79c7f)
   )
   (wire (pts (xy 59.69 95.25) (xy 62.23 95.25))
     (stroke (width 0) (type default))
@@ -450,6 +472,10 @@
     (stroke (width 0) (type default))
     (uuid 4641b29d-80ba-4124-9dec-4314021a5203)
   )
+  (wire (pts (xy 196.215 101.6) (xy 199.39 101.6))
+    (stroke (width 0) (type default))
+    (uuid 4d99a137-c74e-473a-9df7-7ae392e94108)
+  )
   (wire (pts (xy 59.69 100.33) (xy 62.23 100.33))
     (stroke (width 0) (type default))
     (uuid 4dbaf296-85f8-4e27-a792-4ee32d274d24)
@@ -465,6 +491,10 @@
   (wire (pts (xy 204.47 100.33) (xy 207.01 100.33))
     (stroke (width 0) (type default))
     (uuid 5f4814ee-c215-4611-b34c-fdeb79a0cb27)
+  )
+  (wire (pts (xy 51.435 101.6) (xy 54.61 101.6))
+    (stroke (width 0) (type default))
+    (uuid 74f80fda-53b3-4d68-99f8-1b1dc31e549f)
   )
   (wire (pts (xy 203.2 107.95) (xy 204.47 107.95))
     (stroke (width 0) (type default))
@@ -521,6 +551,10 @@
   (wire (pts (xy 59.69 93.98) (xy 59.69 95.25))
     (stroke (width 0) (type default))
     (uuid 9f01d194-f928-48be-8bf9-4b5182917a2b)
+  )
+  (wire (pts (xy 123.825 93.98) (xy 127 93.98))
+    (stroke (width 0) (type default))
+    (uuid a55970b3-f5d7-4911-8461-d6a815c704cb)
   )
   (wire (pts (xy 127 101.6) (xy 132.08 101.6))
     (stroke (width 0) (type default))
@@ -606,6 +640,10 @@
     (stroke (width 0) (type default))
     (uuid e3c92a85-edf1-47f5-82b3-8213b0e72c51)
   )
+  (wire (pts (xy 51.435 93.98) (xy 54.61 93.98))
+    (stroke (width 0) (type default))
+    (uuid f1135451-30b2-459a-813d-2a0723df1ff3)
+  )
   (wire (pts (xy 132.08 88.9) (xy 132.08 93.98))
     (stroke (width 0) (type default))
     (uuid f2c71e43-d093-43df-a7a9-0db94e5a4bc0)
@@ -613,6 +651,10 @@
   (wire (pts (xy 74.93 105.41) (xy 74.93 106.68))
     (stroke (width 0) (type default))
     (uuid f63b2898-28d9-49c5-a844-8218d4fe8dc4)
+  )
+  (wire (pts (xy 196.215 93.98) (xy 199.39 93.98))
+    (stroke (width 0) (type default))
+    (uuid fbcad14e-2e44-4fe7-9a93-f9e2ee980801)
   )
 
   (rectangle (start 45.72 76.2) (end 113.03 123.19)
@@ -644,10 +686,10 @@
     (uuid 6d9b17a5-429e-43b5-b9c6-2c89f8f704e1)
   )
 
-  (global_label "B" (shape input) (at 130.81 88.9 180) (fields_autoplaced)
+  (global_label "B+" (shape input) (at 130.81 88.9 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 40e58570-ec32-4d45-88e3-ac1431e36796)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.5548 88.9 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.1402 88.9 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -658,10 +700,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "A" (shape input) (at 58.42 88.9 180) (fields_autoplaced)
+  (global_label "A-" (shape input) (at 58.42 88.9 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 65c91adf-d62c-4f64-80ce-e1c4fb03049e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 54.3462 88.9 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 53.6237 88.9 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -679,31 +721,31 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "C_OUT" (shape input) (at 203.2 107.95 180) (fields_autoplaced)
+  (global_label "C-" (shape input) (at 203.2 107.95 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9b1aed66-7454-4f7e-8c26-d3e4da99904d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 194.3486 107.95 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 198.658 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "C" (shape input) (at 203.2 88.9 180) (fields_autoplaced)
+  (global_label "C+" (shape input) (at 203.2 88.9 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ba5df60e-a5ca-4ac5-bb9f-41fb5a4f3865)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 198.9448 88.9 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 198.658 88.9 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "B_OUT" (shape input) (at 130.81 107.95 180) (fields_autoplaced)
+  (global_label "B-" (shape input) (at 130.81 107.95 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f0b24469-1941-44de-afdd-044cbdc329b2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 121.9586 107.95 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.1402 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "A_OUT" (shape input) (at 58.42 107.95 180) (fields_autoplaced)
+  (global_label "A+" (shape input) (at 58.42 107.95 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f89e8604-deaa-4658-9cc3-0eb80743237f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 49.75 107.95 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 53.6237 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -802,163 +844,63 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 137.16 106.68 0) (unit 1)
+  (symbol (lib_id "power:+3.3VA") (at 139.7 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 045862f0-a867-4540-9ded-01fd419d147d)
-    (property "Reference" "#PWR010" (at 137.16 113.03 0)
+    (uuid 0961f1c6-be29-438b-9112-86984f874534)
+    (property "Reference" "#PWR07" (at 139.7 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 137.16 111.76 0)
+    (property "Value" "+3.3VA" (at 139.7 84.455 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 137.16 106.68 0)
+    (property "Footprint" "" (at 139.7 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 137.16 106.68 0)
+    (property "Datasheet" "" (at 139.7 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0034ce9-97a9-4781-b5f2-aba6fba4c86c))
+    (pin "1" (uuid acc521f3-9d4a-4103-8390-53aa43e3d849))
     (instances
       (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR010") (unit 1)
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "#PWR07") (unit 1)
         )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 157.48 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 17364be4-95b7-4d51-8249-e877d0521b0d)
+    (property "Reference" "#PWR012" (at 157.48 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 157.48 111.125 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 157.48 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 157.48 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dbc94494-9e61-4ce0-8613-2deacde75e33))
+    (instances
+      (project "Плата датчиков"
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
           (reference "#PWR012") (unit 1)
         )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR049") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
-        )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 224.79 88.9 180) (unit 1)
+  (symbol (lib_id "power:GNDA") (at 219.71 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0aa324d6-c750-4445-ae96-ebdf39d976ef)
-    (property "Reference" "#PWR028" (at 224.79 82.55 0)
+    (uuid 2b7c1bf5-b421-4774-833b-f312637f5acf)
+    (property "Reference" "#PWR015" (at 219.71 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 224.79 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 224.79 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 224.79 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 082f1c4a-3486-4727-ae77-88e874b7c25e))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR028") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR020") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR054") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR0107") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 64.77 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0ab9431a-e328-43fa-8fb1-5667684b9780)
-    (property "Reference" "#PWR04" (at 64.77 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 64.77 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 64.77 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 64.77 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8342304b-d1f7-4641-856c-19d3b0d10cc8))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR043") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 219.71 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0ce379e4-19ec-4a07-b34f-d44f8fc272c1)
-    (property "Reference" "#PWR027" (at 219.71 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 219.71 111.76 0)
+    (property "Value" "GNDA" (at 219.71 111.125 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 219.71 106.68 0)
@@ -967,48 +909,23 @@
     (property "Datasheet" "" (at 219.71 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7f19af18-c736-45b6-8f93-4a8ca69f7a2a))
+    (pin "1" (uuid df0f31de-ba5d-498a-a025-5021334e6237))
     (instances
       (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR027") (unit 1)
-        )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR028") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR057") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
           (reference "#PWR015") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 142.24 106.68 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 309c79c2-02c8-485c-b8a9-cd8ae573fc25)
-    (property "Reference" "#PWR012" (at 142.24 102.87 0)
+  (symbol (lib_id "power:+3.3VA") (at 142.24 106.68 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3007374e-10d0-4698-80ab-68d9eb3ff6f0)
+    (property "Reference" "#PWR013" (at 142.24 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 142.24 111.76 0)
+    (property "Value" "+3.3VA" (at 142.24 111.125 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 142.24 106.68 0)
@@ -1017,25 +934,36 @@
     (property "Datasheet" "" (at 142.24 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ccdc1db-821e-4cd9-851c-97e4172da310))
+    (pin "1" (uuid 04a34c5e-e0f5-4860-9018-0a4d25b5bff7))
     (instances
       (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR012") (unit 1)
-        )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
           (reference "#PWR013") (unit 1)
         )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR050") (unit 1)
-        )
       )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR025") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR028") (unit 1)
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 224.79 88.9 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3c9f12df-71be-42a4-8dbe-0a9cd235695e)
+    (property "Reference" "#PWR027" (at 224.79 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 224.79 85.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 224.79 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 224.79 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4cf72067-c9c3-4357-a69b-fd33f2ce76b6))
+    (instances
+      (project "Плата датчиков"
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1086,13 +1014,13 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 152.4 88.9 180) (unit 1)
+  (symbol (lib_id "power:GNDA") (at 152.4 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4f4bb652-6e9f-4d82-9a07-3f9692912bb6)
-    (property "Reference" "#PWR014" (at 152.4 82.55 0)
+    (uuid 4417896e-9d36-4231-8913-67a3dda8490a)
+    (property "Reference" "#PWR026" (at 152.4 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 152.4 85.09 0)
+    (property "Value" "GNDA" (at 152.4 84.455 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 152.4 88.9 0)
@@ -1101,175 +1029,136 @@
     (property "Datasheet" "" (at 152.4 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75916d25-6e5f-4014-976c-582410ae72c7))
+    (pin "1" (uuid c0ab4df4-715b-4859-b513-18ef4a692be1))
     (instances
       (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR014") (unit 1)
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "#PWR026") (unit 1)
         )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 137.16 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5b234c5f-be88-4114-b60f-1f9fa9f3d717)
+    (property "Reference" "#PWR09" (at 137.16 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 137.16 111.125 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 137.16 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2c3a4cc5-5dbc-41c8-af43-16fbe739ecf0))
+    (instances
+      (project "Плата датчиков"
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 85.09 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5e847ca5-8b44-4e78-babf-ebba28501756)
+    (property "Reference" "#PWR08" (at 85.09 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 85.09 111.125 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 85.09 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 85.09 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2a86b66a-edb4-4f9a-b206-a678ae7a27e5))
+    (instances
+      (project "Плата датчиков"
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 147.32 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 60071c2e-cc11-47e0-98a6-c65ce75c0d62)
+    (property "Reference" "#PWR011" (at 147.32 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 147.32 111.125 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 147.32 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 147.32 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 687c8cb0-4abf-41d7-8080-8636c40e3f18))
+    (instances
+      (project "Плата датчиков"
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
           (reference "#PWR011") (unit 1)
         )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR048") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR0107") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
-        )
       )
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 212.09 88.9 0) (unit 1)
+  (symbol (lib_id "power:+3.3VA") (at 214.63 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5690d7a1-5f4e-439a-8732-706c51cd279c)
-    (property "Reference" "#PWR020" (at 212.09 92.71 0)
+    (uuid 63bbfcb9-dbab-47e9-adce-71a412e04a00)
+    (property "Reference" "#PWR017" (at 214.63 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 212.09 85.09 0)
+    (property "Value" "+3.3VA" (at 214.63 111.125 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 212.09 88.9 0)
+    (property "Footprint" "" (at 214.63 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 212.09 88.9 0)
+    (property "Datasheet" "" (at 214.63 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 99a5db8b-c02b-4068-b71d-2dc742786c0c))
+    (pin "1" (uuid 3d0f4106-5911-47d8-a369-f60b3b0a4f36))
     (instances
       (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR019") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR053") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR025") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 157.48 106.68 0) (unit 1)
+  (symbol (lib_id "power:+3.3VA") (at 67.31 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5a88b473-8628-4a84-a3ae-66ebac6d2c5c)
-    (property "Reference" "#PWR015" (at 157.48 113.03 0)
+    (uuid 66878155-50c9-4c9b-bcc4-105a7f8b5942)
+    (property "Reference" "#PWR016" (at 67.31 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 157.48 111.76 0)
+    (property "Value" "+3.3VA" (at 67.31 84.455 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 157.48 106.68 0)
+    (property "Footprint" "" (at 67.31 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 157.48 106.68 0)
+    (property "Datasheet" "" (at 67.31 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4d8f1b7-8283-498c-aa64-c4fc00922c66))
+    (pin "1" (uuid 3c1f0eed-c857-4343-a136-147eb6c938f8))
     (instances
       (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR014") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 229.87 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 625025a3-ee23-4d7b-8116-5ea1300ca3e3)
-    (property "Reference" "#PWR029" (at 229.87 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 229.87 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 229.87 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 229.87 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9f6f60dc-6ac1-4df5-bb2b-1ae15676e413))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR029") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR029") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR058") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR014") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1318,13 +1207,45 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 80.01 88.9 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 794e6b23-68a5-4269-928d-6097837f4b85)
-    (property "Reference" "#PWR08" (at 80.01 82.55 0)
+  (symbol (lib_id "Device:R") (at 123.825 97.79 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 771a60de-c04f-4d12-b8b0-0da748d21504)
+    (property "Reference" "R5" (at 121.92 99.695 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.5m" (at 122.555 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" (at 125.603 97.79 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 80.01 85.09 0)
+    (property "Datasheet" "~" (at 123.825 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9af79da2-279f-440a-b348-27a9272f90f2))
+    (pin "2" (uuid b7a4ff6f-5eb5-4339-a4f2-b39712119656))
+    (instances
+      (project "Плата датчиков"
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
+          (reference "R5") (unit 1)
+        )
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "R22") (unit 1)
+        )
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
+          (reference "R23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 80.01 88.9 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8a184887-6707-48f2-8be0-326fe4f0fd6a)
+    (property "Reference" "#PWR019" (at 80.01 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 80.01 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 80.01 88.9 0)
@@ -1333,86 +1254,11 @@
     (property "Datasheet" "" (at 80.01 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9abd5c23-eacf-4b31-9a6d-21d784feccc3))
+    (pin "1" (uuid f57623f1-ac6e-47d9-b048-7e62e6ba2d18))
     (instances
       (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR08") (unit 1)
-        )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR05") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR042") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR0107") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 85.09 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8131fcd5-f6b3-459f-8aff-51a7cc3c0ae4)
-    (property "Reference" "#PWR09" (at 85.09 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 85.09 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 85.09 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 85.09 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 956fe561-c301-4b74-bc9d-eb991a42df5f))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR09") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR046") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR014") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1463,6 +1309,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3VA") (at 212.09 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8c3e95f4-aa67-4a7c-ac46-2a179fbf9bf6)
+    (property "Reference" "#PWR010" (at 212.09 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3VA" (at 212.09 84.455 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 212.09 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 212.09 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 32db05a4-2f92-4a54-a17d-7b203557518a))
+    (instances
+      (project "Плата датчиков"
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small") (at 81.28 97.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95ad2c68-380b-482e-95b5-4746759c9e50)
@@ -1508,102 +1379,13 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 139.7 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9e8f4667-a3dd-42bf-a8d4-d1d28ef23224)
-    (property "Reference" "#PWR011" (at 139.7 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 139.7 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 139.7 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 139.7 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b1797d50-de62-404d-b97a-4d860b78b7be))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR011") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR010") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR047") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR025") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR018") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 209.55 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a58f4f9e-65f7-4a7d-9630-5fdc6fc9b0e2)
-    (property "Reference" "#PWR019" (at 209.55 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 209.55 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 209.55 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 209.55 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bf2ba5d9-a89c-4aa3-b8b9-a6b02316ee5a))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR019") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR026") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR055") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 54.61 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa869b69-3813-49bf-b558-697358f9659f)
-    (property "Reference" "R3" (at 50.8 97.79 0)
+    (property "Reference" "R3" (at 56.515 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.5m" (at 55.88 97.79 0)
+    (property "Value" "0.5m" (at 55.88 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" (at 52.832 97.79 90)
@@ -1632,7 +1414,7 @@
   (symbol (lib_id "Device:R") (at 199.39 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae1ca67e-8d5c-4644-9712-aa7ae524b40b)
-    (property "Reference" "R7" (at 195.58 97.79 0)
+    (property "Reference" "R7" (at 201.295 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.5m" (at 200.66 97.79 0)
@@ -1704,79 +1486,33 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 67.31 88.9 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 196.215 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid c71fd422-4d36-4466-977d-f9cfef9753bd)
-    (property "Reference" "#PWR05" (at 67.31 92.71 0)
+    (uuid c21aaff9-5429-4cd8-a443-ffdc7b3f7a8d)
+    (property "Reference" "R7" (at 194.31 99.695 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.5m" (at 194.945 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" (at 197.993 97.79 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 67.31 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 67.31 88.9 0)
+    (property "Datasheet" "~" (at 196.215 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 67.31 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7c2ce585-49cd-4942-9ca9-acc08a11a3f1))
+    (pin "1" (uuid 709d0286-ba4b-4f85-85bc-d2f6e79193b8))
+    (pin "2" (uuid 12a7efde-4a5d-4f76-9193-c0f82ecf7f4f))
     (instances
       (project "Плата датчиков"
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR05") (unit 1)
+          (reference "R7") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR04") (unit 1)
+          (reference "R23") (unit 1)
         )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR041") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR025") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR018") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 69.85 106.68 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cb429611-ecd2-4e18-aba2-6c7eeb45c6af)
-    (property "Reference" "#PWR06" (at 69.85 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 69.85 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 69.85 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 69.85 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f1f39c51-84e9-493f-8ffe-400417f5ec5e))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR07") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR044") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR025") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR028") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1833,6 +1569,38 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 51.435 97.79 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid db5e7347-52a8-472e-8af2-e771f54e89ca)
+    (property "Reference" "R3" (at 47.625 96.139 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.5m" (at 46.99 99.314 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" (at 49.657 97.79 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 51.435 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3625a1df-cd8d-40a2-a349-6bdd4b631e3d))
+    (pin "2" (uuid ce02e8ed-1912-4ef1-bd32-1751ae72cb6e))
+    (instances
+      (project "Плата датчиков"
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
+          (reference "R3") (unit 1)
+        )
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "R21") (unit 1)
+        )
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
+          (reference "R21") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 73.66 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbbcb9d3-6067-4c51-8f12-712546e5419b)
@@ -1879,6 +1647,56 @@
         )
         (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
           (reference "C14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 74.93 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e4f853ec-e228-4b96-a906-b91b4baa6f16)
+    (property "Reference" "#PWR06" (at 74.93 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 74.93 111.125 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 74.93 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 74.93 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8c325f8e-c647-4bc4-a804-ceebf3e8bde3))
+    (instances
+      (project "Плата датчиков"
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 229.87 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e6e4fb44-1508-4e2e-90f4-da1b61a3451c)
+    (property "Reference" "#PWR020" (at 229.87 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 229.87 111.125 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 229.87 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 229.87 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b333e7cf-9eb9-4b9e-b807-e0484b2171dd))
+    (instances
+      (project "Плата датчиков"
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1935,140 +1753,76 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 147.32 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ed90bf56-57f9-484f-947f-19d48a918897)
-    (property "Reference" "#PWR013" (at 147.32 113.03 0)
+  (symbol (lib_id "power:+3.3VA") (at 69.85 106.68 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ea2de293-edad-452f-a13d-a216358df84f)
+    (property "Reference" "#PWR04" (at 69.85 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 147.32 111.76 0)
+    (property "Value" "+3.3VA" (at 69.85 111.125 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 147.32 106.68 0)
+    (property "Footprint" "" (at 69.85 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 147.32 106.68 0)
+    (property "Datasheet" "" (at 69.85 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a28fcf4-034e-413f-b576-62a575257976))
+    (pin "1" (uuid fff9652f-67ba-4548-a048-586516925e8b))
     (instances
       (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR013") (unit 1)
+        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
+          (reference "#PWR04") (unit 1)
         )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDA") (at 209.55 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f13cc24e-1f51-4e54-bd93-ca7056682063)
+    (property "Reference" "#PWR014" (at 209.55 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 209.55 111.125 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 209.55 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 209.55 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ff60ab63-4f9c-4a49-b40a-3c24f9c67b80))
+    (instances
+      (project "Плата датчиков"
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
           (reference "#PWR014") (unit 1)
         )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR051") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
-        )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 74.93 106.68 0) (unit 1)
+  (symbol (lib_id "power:GNDA") (at 64.77 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid edc2f12b-f642-49c1-a43f-9c0bb66a6b95)
-    (property "Reference" "#PWR07" (at 74.93 113.03 0)
+    (uuid f1a2a488-ebdf-4a73-9eb2-db6ccb600891)
+    (property "Reference" "#PWR05" (at 64.77 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 74.93 111.76 0)
+    (property "Value" "GNDA" (at 64.77 111.125 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 74.93 106.68 0)
+    (property "Footprint" "" (at 64.77 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 74.93 106.68 0)
+    (property "Datasheet" "" (at 64.77 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 11ac95f8-2f97-4a82-965c-50f599df3d70))
+    (pin "1" (uuid fade3cc1-bd71-4abc-ad53-7d3d2e65117a))
     (instances
       (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR08") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR045") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "Силовая плата"
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09"
-          (reference "#PWR06") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/1efb5faf-bb82-4ac6-a144-d6576b4720aa"
-          (reference "#PWR015") (unit 1)
-        )
-        (path "/96c6fc92-8ec6-44f7-b0dc-9ad8f1acea09/a27b443f-c036-4fd6-934c-6ea912709de0"
-          (reference "#PWR025") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 214.63 106.68 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid eef7c281-cd13-4d61-bbce-eb3e430e06ab)
-    (property "Reference" "#PWR026" (at 214.63 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 214.63 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 214.63 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 214.63 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5456b163-bd0a-4e49-a6db-c42583c7ee4c))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR026") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/0447fd9f-08b2-4399-8f4a-dc90b927aeac"
-          (reference "#PWR027") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/bcde038a-9c61-4256-93bc-e646290f2e91"
-          (reference "#PWR056") (unit 1)
-        )
-      )
-      (project "Плата управления"
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/d6b8b9ce-300b-4d22-9d4c-9182eba581b1"
-          (reference "#PWR025") (unit 1)
-        )
-        (path "/75f4c67c-bbde-4446-8f82-67797a1b269f/c91ff3ec-ad20-4326-acd4-2c9dea437172"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2179,7 +1933,7 @@
   (symbol (lib_id "Device:R") (at 127 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f70e6ff2-db69-4085-8357-c6b4d4bf7ac9)
-    (property "Reference" "R5" (at 123.19 97.79 0)
+    (property "Reference" "R5" (at 128.905 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.5m" (at 128.27 97.79 0)

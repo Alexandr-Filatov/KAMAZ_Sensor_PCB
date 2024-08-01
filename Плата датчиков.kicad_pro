@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 6.0,
-          "width": 6.0
+          "drill": 1.09,
+          "height": 1.635,
+          "width": 1.635
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -113,7 +113,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 3.0,
+        "min_copper_edge_clearance": 1.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -443,7 +443,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "3D модели/Плата датчиков.step",
+      "step": "../../../../3D/Плата датчиков.step",
       "vrml": ""
     },
     "page_layout_descr_file": "gost_landscape.kicad_wks"
