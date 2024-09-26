@@ -1,1491 +1,3928 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid d5ce18df-a7c3-4e72-a6c7-628108ee7f4d)
-
-  (paper "A4")
-
-  (title_block
-    (comment 1 "МПСТ.76721.758764.03.М Э3")
-  )
-
-  (lib_symbols
-    (symbol "4900:4900" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 16.51 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left top))
-      )
-      (property "Value" "4900" (at 16.51 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left top))
-      )
-      (property "Footprint" "4900" (at 16.51 -94.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 16.51 -194.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Height" "10.72" (at 16.51 -394.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Manufacturer_Name" "Keystone Electronics" (at 16.51 -494.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Manufacturer_Part_Number" "4900" (at 16.51 -594.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Mouser Part Number" "534-4900" (at 16.51 -694.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 16.51 -794.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Arrow Part Number" "" (at 16.51 -894.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "Arrow Price/Stock" "" (at 16.51 -994.92 0)
-        (effects (font (size 1.27 1.27)) (justify left top) hide)
-      )
-      (property "ki_description" "Terminals TERMINAL H .416" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "4900_1_1"
-        (rectangle (start 5.08 2.54) (end 15.24 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 0) (length 5.08)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:Conn_01x03_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x03_Socket" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x03, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x03_Socket_1_1"
-        (arc (start 0 -2.032) (mid -0.5058 -2.54) (end 0 -3.048)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -2.54)
-            (xy -0.508 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy -0.508 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 2.54)
-            (xy -0.508 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 0.508) (mid -0.5058 0) (end 0 -0.508)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (arc (start 0 3.048) (mid -0.5058 2.54) (end 0 2.032)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x01" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x01_1_1"
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 1.27) (end 1.27 -1.27)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_02x04_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_02x04_Odd_Even" (at 1.27 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_02x04_Odd_Even_1_1"
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 3.81) (end 3.81 -6.35)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (rectangle (start 3.81 -4.953) (end 2.54 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 -2.413) (end 2.54 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 3.81 2.667) (end 2.54 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 0 180) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -2.54 180) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -5.08 180) (length 3.81)
-          (name "Pin_8" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+3.3VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3VA" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3VA\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3VA_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3VA_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3VA" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GNDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GNDA" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GNDA\" , analog ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GNDA_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GNDA_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GNDA" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 160.02 81.28) (diameter 0) (color 0 0 0 0)
-    (uuid 04a92b1d-1472-452b-9bba-248a857d6756)
-  )
-  (junction (at 200.66 72.39) (diameter 0) (color 0 0 0 0)
-    (uuid 131a9387-90bb-436a-ace7-2fc13e6a3b14)
-  )
-  (junction (at 120.65 78.74) (diameter 0) (color 0 0 0 0)
-    (uuid 1f1913ff-95dc-41ba-8c3a-a66251da732a)
-  )
-  (junction (at 160.02 78.74) (diameter 0) (color 0 0 0 0)
-    (uuid 2052ba08-4a29-43e9-9d0c-fa7e7b73fa1d)
-  )
-  (junction (at 120.65 72.39) (diameter 0) (color 0 0 0 0)
-    (uuid 41ee52bd-5ea1-42e8-91a8-a1e8b493c99f)
-  )
-  (junction (at 160.02 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid 4cd93c24-9ce4-492c-97b2-05f383b4d892)
-  )
-  (junction (at 160.02 72.39) (diameter 0) (color 0 0 0 0)
-    (uuid 573befc2-9c4f-44e3-9e7b-611dd5dcde6b)
-  )
-  (junction (at 120.65 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid 5a34b46e-dd40-49a1-aee5-a149493e6973)
-  )
-  (junction (at 200.66 81.28) (diameter 0) (color 0 0 0 0)
-    (uuid 629bd0d3-75ef-47a7-ad36-5aed9b2238b5)
-  )
-  (junction (at 200.66 87.63) (diameter 0) (color 0 0 0 0)
-    (uuid 74aa26bf-2aca-4ea3-820d-9dd8105ea5fb)
-  )
-  (junction (at 120.65 81.28) (diameter 0) (color 0 0 0 0)
-    (uuid 9ae9e8c3-14df-4a8b-bce4-e9abdbd659e4)
-  )
-  (junction (at 120.65 87.63) (diameter 0) (color 0 0 0 0)
-    (uuid b834ac4a-9fee-452a-bcbe-8f7cb6ff1be9)
-  )
-  (junction (at 160.02 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid d6170a8c-e110-4b9d-a457-49309254b657)
-  )
-  (junction (at 160.02 87.63) (diameter 0) (color 0 0 0 0)
-    (uuid e57a1d2d-567e-4f93-b0d7-958361013bd1)
-  )
-  (junction (at 200.66 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid ebdf6da9-9566-4392-9868-00c693ed12b6)
-  )
-  (junction (at 160.02 80.01) (diameter 0) (color 0 0 0 0)
-    (uuid f2eeca3e-5e54-424a-b3d0-c73e1f8276e4)
-  )
-  (junction (at 200.66 78.74) (diameter 0) (color 0 0 0 0)
-    (uuid f3fa79ce-6db4-4f9d-8641-f4534c24860a)
-  )
-
-  (wire (pts (xy 160.02 96.52) (xy 160.02 90.17))
-    (stroke (width 0) (type default))
-    (uuid 046aec7a-d543-4a2d-a0d1-84db40d496de)
-  )
-  (wire (pts (xy 163.83 69.85) (xy 160.02 69.85))
-    (stroke (width 0) (type default))
-    (uuid 08590b57-cc08-43bc-a44e-94403efb1666)
-  )
-  (wire (pts (xy 120.65 81.28) (xy 120.65 80.01))
-    (stroke (width 0) (type default))
-    (uuid 0c808819-fbdc-4dc0-9f84-16fded6c411a)
-  )
-  (wire (pts (xy 200.66 80.01) (xy 200.66 78.74))
-    (stroke (width 0) (type default))
-    (uuid 0d6cda18-c53f-4875-b7c7-aa90c9d249af)
-  )
-  (wire (pts (xy 204.47 69.85) (xy 200.66 69.85))
-    (stroke (width 0) (type default))
-    (uuid 10d3d46b-9bb3-4c15-8bc9-e221727b9cbd)
-  )
-  (wire (pts (xy 200.66 81.28) (xy 200.66 80.01))
-    (stroke (width 0) (type default))
-    (uuid 1ce08367-0ebb-4181-b24f-655931228e5d)
-  )
-  (wire (pts (xy 194.31 80.01) (xy 200.66 80.01))
-    (stroke (width 0) (type default))
-    (uuid 1fb9381f-4836-476b-813d-6f6a2bdde8f4)
-  )
-  (wire (pts (xy 120.65 72.39) (xy 120.65 78.74))
-    (stroke (width 0) (type default))
-    (uuid 20a93660-67b3-4bcb-b874-5c5a8e851bd5)
-  )
-  (wire (pts (xy 200.66 87.63) (xy 200.66 81.28))
-    (stroke (width 0) (type default))
-    (uuid 29581f75-0a77-4232-aa07-39074635b223)
-  )
-  (wire (pts (xy 163.83 87.63) (xy 160.02 87.63))
-    (stroke (width 0) (type default))
-    (uuid 2a6c3b59-cb3c-418a-bb55-f38077182b54)
-  )
-  (wire (pts (xy 153.67 80.01) (xy 160.02 80.01))
-    (stroke (width 0) (type default))
-    (uuid 32f83ba5-308c-4684-bcee-8df3e99577d9)
-  )
-  (wire (pts (xy 120.65 72.39) (xy 124.46 72.39))
-    (stroke (width 0) (type default))
-    (uuid 37900540-42dc-4701-8b67-ba7b130d4f35)
-  )
-  (wire (pts (xy 120.65 78.74) (xy 124.46 78.74))
-    (stroke (width 0) (type default))
-    (uuid 37e5388b-c193-4f80-8e7d-17d2a8f76f7b)
-  )
-  (wire (pts (xy 160.02 99.06) (xy 160.02 96.52))
-    (stroke (width 0) (type default))
-    (uuid 3b8a218a-0f31-4a91-9c60-acb5758afcc5)
-  )
-  (wire (pts (xy 160.02 80.01) (xy 160.02 78.74))
-    (stroke (width 0) (type default))
-    (uuid 3c8d0d77-767e-470d-bf56-7274114f6f11)
-  )
-  (wire (pts (xy 200.66 72.39) (xy 200.66 78.74))
-    (stroke (width 0) (type default))
-    (uuid 3da0fa34-7966-4189-9d88-f91c6c5c9beb)
-  )
-  (wire (pts (xy 163.83 96.52) (xy 160.02 96.52))
-    (stroke (width 0) (type default))
-    (uuid 408c0d3e-a8f8-4e5c-b88a-3fc0e4944ac1)
-  )
-  (wire (pts (xy 160.02 87.63) (xy 160.02 81.28))
-    (stroke (width 0) (type default))
-    (uuid 462af577-f602-487a-8567-a94aeff003f6)
-  )
-  (wire (pts (xy 160.02 81.28) (xy 160.02 80.01))
-    (stroke (width 0) (type default))
-    (uuid 47c86d10-a4a6-4973-8ecf-3c3c231a47d6)
-  )
-  (wire (pts (xy 163.83 99.06) (xy 160.02 99.06))
-    (stroke (width 0) (type default))
-    (uuid 4a456df0-7719-41ee-93fd-1398c0f5210f)
-  )
-  (wire (pts (xy 160.02 72.39) (xy 160.02 78.74))
-    (stroke (width 0) (type default))
-    (uuid 549a5c98-4e0e-4272-b263-680d2a3ebba0)
-  )
-  (wire (pts (xy 200.66 69.85) (xy 200.66 72.39))
-    (stroke (width 0) (type default))
-    (uuid 56a88139-d0c7-4343-ad4e-5146a82419ad)
-  )
-  (wire (pts (xy 204.47 81.28) (xy 200.66 81.28))
-    (stroke (width 0) (type default))
-    (uuid 5ef13cf9-bab0-41d9-a67f-5b7431d571b9)
-  )
-  (wire (pts (xy 204.47 90.17) (xy 200.66 90.17))
-    (stroke (width 0) (type default))
-    (uuid 62fe1103-5866-4bd2-bcb1-d7ce1b33d239)
-  )
-  (wire (pts (xy 204.47 87.63) (xy 200.66 87.63))
-    (stroke (width 0) (type default))
-    (uuid 66d0b7d4-a894-4a47-8f72-22ce3c8676c5)
-  )
-  (wire (pts (xy 124.46 90.17) (xy 120.65 90.17))
-    (stroke (width 0) (type default))
-    (uuid 6d479c73-c270-4860-832a-653386a670fa)
-  )
-  (wire (pts (xy 200.66 90.17) (xy 200.66 87.63))
-    (stroke (width 0) (type default))
-    (uuid 741f334e-e100-4ae8-8cac-160202c64eec)
-  )
-  (wire (pts (xy 200.66 72.39) (xy 204.47 72.39))
-    (stroke (width 0) (type default))
-    (uuid 85c296ed-de18-4b78-ae73-49810af99505)
-  )
-  (wire (pts (xy 120.65 69.85) (xy 120.65 72.39))
-    (stroke (width 0) (type default))
-    (uuid 86626a1d-3885-4687-b1ab-4f25bd0fc776)
-  )
-  (wire (pts (xy 160.02 72.39) (xy 163.83 72.39))
-    (stroke (width 0) (type default))
-    (uuid 89ac72a7-e2d2-4217-8528-898df49e8f2e)
-  )
-  (wire (pts (xy 163.83 81.28) (xy 160.02 81.28))
-    (stroke (width 0) (type default))
-    (uuid 8b7bffc4-8b91-4cde-8761-f304b47b0661)
-  )
-  (wire (pts (xy 120.65 90.17) (xy 120.65 87.63))
-    (stroke (width 0) (type default))
-    (uuid 927a9785-91e9-4491-b5b3-8f9d77a05412)
-  )
-  (wire (pts (xy 124.46 81.28) (xy 120.65 81.28))
-    (stroke (width 0) (type default))
-    (uuid a15f6053-1df6-4377-89d7-05fcd4b3de43)
-  )
-  (wire (pts (xy 160.02 90.17) (xy 160.02 87.63))
-    (stroke (width 0) (type default))
-    (uuid a3a460bb-8eff-478f-b0ca-4ffec05780b8)
-  )
-  (wire (pts (xy 160.02 78.74) (xy 163.83 78.74))
-    (stroke (width 0) (type default))
-    (uuid a88796d7-5418-473e-a61b-d8e69d92f94c)
-  )
-  (wire (pts (xy 120.65 80.01) (xy 120.65 78.74))
-    (stroke (width 0) (type default))
-    (uuid af46f0af-d7a6-4e8c-952e-fa291c3eabbf)
-  )
-  (wire (pts (xy 114.3 80.01) (xy 120.65 80.01))
-    (stroke (width 0) (type default))
-    (uuid b84577a1-c625-42c8-922a-8d0a4209e835)
-  )
-  (wire (pts (xy 124.46 87.63) (xy 120.65 87.63))
-    (stroke (width 0) (type default))
-    (uuid d5cbd044-018f-432e-bd95-76017e808815)
-  )
-  (wire (pts (xy 120.65 87.63) (xy 120.65 81.28))
-    (stroke (width 0) (type default))
-    (uuid e3ee66e0-938b-4b4e-a1ef-43a1a0e9e49c)
-  )
-  (wire (pts (xy 163.83 90.17) (xy 160.02 90.17))
-    (stroke (width 0) (type default))
-    (uuid e7b7129b-3939-434e-aac9-83c0624b6e57)
-  )
-  (wire (pts (xy 160.02 69.85) (xy 160.02 72.39))
-    (stroke (width 0) (type default))
-    (uuid faf3c206-5da1-4aed-9aee-7ac2aaec1f44)
-  )
-  (wire (pts (xy 124.46 69.85) (xy 120.65 69.85))
-    (stroke (width 0) (type default))
-    (uuid fb8e1548-7f6d-49b3-ad59-cc0f0f35526b)
-  )
-  (wire (pts (xy 200.66 78.74) (xy 204.47 78.74))
-    (stroke (width 0) (type default))
-    (uuid fd89810f-17e0-4549-aed1-43c4dd1c9175)
-  )
-
-  (rectangle (start 44.45 130.175) (end 95.25 177.165)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 7a565225-c098-4c65-bc92-664363ef157c)
-  )
-  (rectangle (start 104.14 64.77) (end 228.6 106.045)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 8a46a48a-94ec-4065-9fe0-759dccb58122)
-  )
-  (rectangle (start 73.025 64.77) (end 94.615 95.25)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid da924051-af80-4553-aabb-f98634314b57)
-  )
-
-  (text "Межплатные сигнальные разъёмы" (at 33.02 128.905 0)
-    (effects (font (size 3.5 3.5) bold) (justify left bottom))
-    (uuid 17b64a97-6911-4818-a8c2-3d27ecd2f77f)
-  )
-  (text "Фазные разъёмы" (at 66.04 63.5 0)
-    (effects (font (size 3.5 3.5) (thickness 0.4) bold) (justify left bottom))
-    (uuid 24543f00-adc8-4ee2-96dc-4874ca9dfa11)
-  )
-  (text "Ножевые разъёмы" (at 149.225 63.5 0)
-    (effects (font (size 3.5 3.5) (thickness 0.4) bold) (justify left bottom))
-    (uuid 7485eff5-bde7-4f55-b6c9-0bfa80eae3c2)
-  )
-
-  (global_label "Current_A_MCU" (shape output) (at 60.96 142.24 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0e64c1cc-5b6d-46f7-a1aa-2d6857e9b035)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 45.8666 142.24 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "C+" (shape input) (at 81.915 86.36 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 17f06c05-24f5-4cb4-b1f4-b833ec874e0a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 77.373 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "Current_B_MCU" (shape output) (at 60.96 139.7 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 3372e5f2-0509-4a27-94e6-365b46939190)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 43.8424 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "C-" (shape input) (at 194.31 80.01 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 34795505-4b39-44e0-abc2-8fe578470415)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 189.768 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "Current_C_MCU" (shape input) (at 60.96 137.16 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 65cf2723-c806-457c-bf99-69a65020dcb5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 46.121 137.16 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "A+" (shape input) (at 81.915 73.66 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6aec7c83-4b7a-4359-9c64-72e4bf645e6d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 77.1187 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "B+" (shape input) (at 81.915 80.01 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 747801eb-08b5-4863-823b-1fb0be37503e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 77.2452 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "Temp_Coil_A_MCU" (shape input) (at 73.66 142.24 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 74ac6c81-af72-462a-a3cc-d98a6e950da0)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.276 142.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "OUT_MCU" (shape input) (at 73.66 137.16 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9bd4ee05-a676-44bc-9478-21442fad935d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 83.67 137.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "Temp_Coil_B_MCU" (shape input) (at 73.66 139.7 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ad04f4bf-5a7d-48a6-902d-420f79bb17c9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.4574 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "PTC_Coil_B" (shape input) (at 67.945 166.37 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b5291e70-1fac-43eb-b400-9e3bcfb2ca6e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 56.2836 166.37 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "B-" (shape input) (at 153.67 80.01 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c87d4634-ad10-4eaa-9c5e-f3d258056f34)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 149.0002 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "PTC_Coil_A" (shape input) (at 67.945 163.83 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid cf1b9f89-5459-4c3d-99e2-8039cbfc1dc3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 54.7394 163.83 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "A-" (shape input) (at 114.3 80.01 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid db6860cf-3318-47d3-a252-e06403cb9e5f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 109.5037 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x03_Socket") (at 73.025 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 274dd4bf-352c-4706-8ed3-76e4f7f95b2c)
-    (property "Reference" "J8" (at 74.93 165.7349 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Temp" (at 74.93 168.2749 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 73.025 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 73.025 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1ac418e1-bc31-4eb7-8f17-b7ad4f92de83))
-    (pin "2" (uuid b88fa542-da76-4a95-b9c5-45b35fc45dfc))
-    (pin "3" (uuid 674959f0-7c27-4d68-b62e-56f32dc65657))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 86.995 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5181222d-671a-4b6d-9aca-7b06d73bb2f0)
-    (property "Reference" "J3" (at 85.725 83.82 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "C" (at 89.535 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_My:Power_Wire" (at 86.995 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 86.995 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c5fd9682-41ea-4c9b-8464-0c467501d4cd))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J3") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J3") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "4900:4900") (at 163.83 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5684face-68e0-4c95-b429-2e8ca2dcf6af)
-    (property "Reference" "J12" (at 180.34 71.7549 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4900" (at 180.34 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_My:4900" (at 180.34 164.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 180.34 264.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "10.72" (at 180.34 464.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Keystone Electronics" (at 180.34 564.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "4900" (at 180.34 664.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "534-4900" (at 180.34 764.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 180.34 864.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 180.34 964.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 180.34 1064.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid 9a11c2e7-7e21-4d07-900a-4ff4693072c9))
-    (pin "2" (uuid 5be3abb6-a500-4456-b362-60a9feea5efd))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J12") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J12") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "4900:4900") (at 204.47 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 83de68d1-c6e7-4fad-bf4a-d45ad8239aca)
-    (property "Reference" "J11" (at 220.98 89.5349 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4900" (at 220.98 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_My:4900" (at 220.98 182.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 220.98 282.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "10.72" (at 220.98 482.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Keystone Electronics" (at 220.98 582.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "4900" (at 220.98 682.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "534-4900" (at 220.98 782.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 220.98 882.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 220.98 982.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 220.98 1082.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid 336d18d7-11e3-4f77-acb4-b1af5833986f))
-    (pin "2" (uuid 5681b366-4bbe-46c4-b33f-78c5f1dfac13))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J11") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J11") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J26") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "4900:4900") (at 124.46 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 88ac7c58-a619-40cc-8ecc-cb4b69edee50)
-    (property "Reference" "J6" (at 140.97 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4900" (at 140.97 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_My:4900" (at 140.97 173.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 140.97 273.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "10.72" (at 140.97 473.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Keystone Electronics" (at 140.97 573.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "4900" (at 140.97 673.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "534-4900" (at 140.97 773.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 140.97 873.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 140.97 973.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 140.97 1073.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid 01012999-2c2a-4ce8-9c88-ef9afd5f78db))
-    (pin "2" (uuid ad40f548-31be-4ecc-8ef9-52dfa0cedba1))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J6") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J6") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J19") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 86.995 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9c15dd2a-d500-43ff-a6e6-e51ef03b0d79)
-    (property "Reference" "J2" (at 85.725 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "B" (at 89.535 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_My:Power_Wire" (at 86.995 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 86.995 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c15f9a4f-8d55-46e9-b48b-b5a97744d554))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J2") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J2") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "4900:4900") (at 163.83 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9e4be74a-1bb5-4273-9dbc-cf13a7f9f1c8)
-    (property "Reference" "J14" (at 180.34 89.5349 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4900" (at 180.34 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_My:4900" (at 180.34 182.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 180.34 282.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "10.72" (at 180.34 482.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Keystone Electronics" (at 180.34 582.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "4900" (at 180.34 682.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "534-4900" (at 180.34 782.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 180.34 882.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 180.34 982.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 180.34 1082.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid b2442318-7c77-4072-97ca-449097dbbc38))
-    (pin "2" (uuid c3478bb0-74fa-404c-81d3-792ebdc5fd93))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J14") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J14") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J25") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "4900:4900") (at 163.83 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid aaebde15-4809-40c9-9bd1-e49336d973b6)
-    (property "Reference" "J14" (at 180.34 98.4249 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4900" (at 180.34 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_My:4900" (at 180.34 191.44 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 180.34 291.44 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "10.72" (at 180.34 491.44 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Keystone Electronics" (at 180.34 591.44 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "4900" (at 180.34 691.44 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "534-4900" (at 180.34 791.44 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 180.34 891.44 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 180.34 991.44 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 180.34 1091.44 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid 0025a4de-dee1-4851-a037-f5cc32540fe0))
-    (pin "2" (uuid 053e8c6b-fa2c-4d59-a61f-341937ca0dc8))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J14") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J4") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J25") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "4900:4900") (at 124.46 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ae5c4302-c8b6-4c7c-ba14-7e64830eacba)
-    (property "Reference" "J5" (at 140.97 71.7549 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4900" (at 140.97 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_My:4900" (at 140.97 164.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 140.97 264.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "10.72" (at 140.97 464.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Keystone Electronics" (at 140.97 564.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "4900" (at 140.97 664.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "534-4900" (at 140.97 764.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 140.97 864.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 140.97 964.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 140.97 1064.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid cb332b80-585e-4138-91a1-e84efbfbe120))
-    (pin "2" (uuid dc43eb20-9062-4da1-ba49-583a7bcbbbf2))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J5") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J5") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_02x04_Odd_Even") (at 66.04 139.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b87a4eb1-0638-4650-b4ab-84741e62bea3)
-    (property "Reference" "J15" (at 67.31 132.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_02x04_Odd_Even" (at 67.31 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x04_P2.00mm_Vertical" (at 66.04 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 66.04 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d11b6099-7d08-4113-a899-a6c48361beaa))
-    (pin "2" (uuid 8dc40945-6c0f-42dc-9b0d-8ddbe8b78b36))
-    (pin "3" (uuid 2e3a7c86-ce24-41f6-8c76-8d64232de623))
-    (pin "4" (uuid 8e415074-824d-4d93-bb60-bcf38e8e542a))
-    (pin "5" (uuid 8933d97d-d45d-4ae5-9542-008b18da40e9))
-    (pin "6" (uuid 8634b7b8-9a19-4118-aa86-95834c0f3041))
-    (pin "7" (uuid e1e7d5bf-592d-402b-b68d-6cc233a2e6e0))
-    (pin "8" (uuid 61b4e8b2-47c7-4cda-8ffa-7fd37269be19))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "4900:4900") (at 204.47 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b93d71b8-697e-4ecf-ba44-9668482d8822)
-    (property "Reference" "J9" (at 220.98 71.7549 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4900" (at 220.98 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_My:4900" (at 220.98 164.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 220.98 264.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "10.72" (at 220.98 464.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Keystone Electronics" (at 220.98 564.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "4900" (at 220.98 664.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "534-4900" (at 220.98 764.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 220.98 864.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 220.98 964.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 220.98 1064.77 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid 7f23fc66-47af-4a12-b284-446b529ba7f6))
-    (pin "2" (uuid f053e7f1-d368-4fa3-8bf3-18a73ac50607))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J9") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J7") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GNDA") (at 67.945 168.91 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bee659e3-800a-411c-8cb7-6784efd56c2c)
-    (property "Reference" "#PWR038" (at 61.595 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 64.135 169.5449 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 67.945 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 67.945 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5f04256d-d4ef-4db8-87a9-68390ed68f9a))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR038") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "#PWR038") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "#PWR045") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "4900:4900") (at 163.83 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c2305888-b448-48b9-bf06-c5f979e9cb6b)
-    (property "Reference" "J13" (at 180.34 80.6449 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4900" (at 180.34 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_My:4900" (at 180.34 173.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 180.34 273.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "10.72" (at 180.34 473.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Keystone Electronics" (at 180.34 573.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "4900" (at 180.34 673.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "534-4900" (at 180.34 773.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 180.34 873.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 180.34 973.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 180.34 1073.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid 0a13546d-6dad-47f9-b872-108839c0adbb))
-    (pin "2" (uuid a154d72d-41ee-4c49-b64c-f6f3053e948b))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J13") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J13") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J20") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "4900:4900") (at 124.46 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cdddbc1b-c66c-414c-90cc-ec9842f58d3e)
-    (property "Reference" "J7" (at 140.97 89.5349 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4900" (at 140.97 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_My:4900" (at 140.97 182.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 140.97 282.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "10.72" (at 140.97 482.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Keystone Electronics" (at 140.97 582.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "4900" (at 140.97 682.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "534-4900" (at 140.97 782.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 140.97 882.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 140.97 982.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 140.97 1082.55 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid 9c156381-caa4-4328-97a3-65bca8b2266f))
-    (pin "2" (uuid 15b7daa9-322b-4bb3-bc95-548120d17ce1))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J7") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J9") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "4900:4900") (at 204.47 78.74 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d2aacf6e-1e74-4c7c-b928-8bff61480103)
-    (property "Reference" "J10" (at 220.98 80.6449 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4900" (at 220.98 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_My:4900" (at 220.98 173.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597" (at 220.98 273.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "10.72" (at 220.98 473.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Keystone Electronics" (at 220.98 573.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "4900" (at 220.98 673.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "534-4900" (at 220.98 773.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D" (at 220.98 873.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Part Number" "" (at 220.98 973.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Arrow Price/Stock" "" (at 220.98 1073.66 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (pin "1" (uuid 1e798a73-2683-4ee4-afb2-fb5505b0f14f))
-    (pin "2" (uuid 489b4a21-2e08-42b6-806b-fa1f11e04698))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J10") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J10") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GNDA") (at 73.66 144.78 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d8fe130f-4c16-4294-8a60-51e6d244b8fb)
-    (property "Reference" "#PWR023" (at 80.01 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 77.47 144.78 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 73.66 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 73.66 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 424cc0c6-3917-4563-98b8-ee862ad612fc))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR023") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "#PWR023") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "#PWR044") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 86.995 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e59b7b71-cf8d-4880-bd57-2db1031f9738)
-    (property "Reference" "J1" (at 85.725 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "A" (at 89.535 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_My:Power_Wire" (at 86.995 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 86.995 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 09de28f0-15d1-432d-a3e9-35d932c147e8))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "J1") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "J1") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "J18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3VA") (at 60.96 144.78 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fce2eb31-ad13-4c91-be14-155f705af398)
-    (property "Reference" "#PWR017" (at 64.77 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3VA" (at 57.15 144.78 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 60.96 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 60.96 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 07e9dfca-f4d9-4f87-92b5-f57552ba1579))
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
-          (reference "#PWR017") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
-          (reference "#PWR022") (unit 1)
-        )
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/25ee8137-5200-4a92-a72b-f10625be9855"
-          (reference "#PWR043") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d5ce18df-a7c3-4e72-a6c7-628108ee7f4d")
+	(paper "A4")
+	(title_block
+		(comment 1 "МПСТ.76721.758764.03.М Э3")
+	)
+	(lib_symbols
+		(symbol "4900:4900"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "4900"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "4900"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Terminals TERMINAL H .416"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "10.72"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Keystone Electronics"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "4900"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "534-4900"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "4900_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x04_Odd_Even"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x04_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3VA"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 160.02 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04a92b1d-1472-452b-9bba-248a857d6756")
+	)
+	(junction
+		(at 200.66 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "131a9387-90bb-436a-ace7-2fc13e6a3b14")
+	)
+	(junction
+		(at 120.65 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f1913ff-95dc-41ba-8c3a-a66251da732a")
+	)
+	(junction
+		(at 160.02 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2052ba08-4a29-43e9-9d0c-fa7e7b73fa1d")
+	)
+	(junction
+		(at 120.65 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41ee52bd-5ea1-42e8-91a8-a1e8b493c99f")
+	)
+	(junction
+		(at 160.02 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd93c24-9ce4-492c-97b2-05f383b4d892")
+	)
+	(junction
+		(at 160.02 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "573befc2-9c4f-44e3-9e7b-611dd5dcde6b")
+	)
+	(junction
+		(at 120.65 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a34b46e-dd40-49a1-aee5-a149493e6973")
+	)
+	(junction
+		(at 200.66 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "629bd0d3-75ef-47a7-ad36-5aed9b2238b5")
+	)
+	(junction
+		(at 200.66 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74aa26bf-2aca-4ea3-820d-9dd8105ea5fb")
+	)
+	(junction
+		(at 120.65 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ae9e8c3-14df-4a8b-bce4-e9abdbd659e4")
+	)
+	(junction
+		(at 120.65 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b834ac4a-9fee-452a-bcbe-8f7cb6ff1be9")
+	)
+	(junction
+		(at 160.02 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6170a8c-e110-4b9d-a457-49309254b657")
+	)
+	(junction
+		(at 160.02 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e57a1d2d-567e-4f93-b0d7-958361013bd1")
+	)
+	(junction
+		(at 200.66 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebdf6da9-9566-4392-9868-00c693ed12b6")
+	)
+	(junction
+		(at 160.02 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2eeca3e-5e54-424a-b3d0-c73e1f8276e4")
+	)
+	(junction
+		(at 200.66 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3fa79ce-6db4-4f9d-8641-f4534c24860a")
+	)
+	(wire
+		(pts
+			(xy 160.02 96.52) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046aec7a-d543-4a2d-a0d1-84db40d496de")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08590b57-cc08-43bc-a44e-94403efb1666")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 120.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c808819-fbdc-4dc0-9f84-16fded6c411a")
+	)
+	(wire
+		(pts
+			(xy 200.66 80.01) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6cda18-c53f-4875-b7c7-aa90c9d249af")
+	)
+	(wire
+		(pts
+			(xy 204.47 69.85) (xy 200.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d3d46b-9bb3-4c15-8bc9-e221727b9cbd")
+	)
+	(wire
+		(pts
+			(xy 200.66 81.28) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce08367-0ebb-4181-b24f-655931228e5d")
+	)
+	(wire
+		(pts
+			(xy 194.31 80.01) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb9381f-4836-476b-813d-6f6a2bdde8f4")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a93660-67b3-4bcb-b874-5c5a8e851bd5")
+	)
+	(wire
+		(pts
+			(xy 200.66 87.63) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29581f75-0a77-4232-aa07-39074635b223")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 160.02 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6c3b59-cb3c-418a-bb55-f38077182b54")
+	)
+	(wire
+		(pts
+			(xy 153.67 80.01) (xy 160.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f83ba5-308c-4684-bcee-8df3e99577d9")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37900540-42dc-4701-8b67-ba7b130d4f35")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 124.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e5388b-c193-4f80-8e7d-17d2a8f76f7b")
+	)
+	(wire
+		(pts
+			(xy 160.02 99.06) (xy 160.02 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8a218a-0f31-4a91-9c60-acb5758afcc5")
+	)
+	(wire
+		(pts
+			(xy 160.02 80.01) (xy 160.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8d0d77-767e-470d-bf56-7274114f6f11")
+	)
+	(wire
+		(pts
+			(xy 200.66 72.39) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da0fa34-7966-4189-9d88-f91c6c5c9beb")
+	)
+	(wire
+		(pts
+			(xy 163.83 96.52) (xy 160.02 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408c0d3e-a8f8-4e5c-b88a-3fc0e4944ac1")
+	)
+	(wire
+		(pts
+			(xy 160.02 87.63) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462af577-f602-487a-8567-a94aeff003f6")
+	)
+	(wire
+		(pts
+			(xy 160.02 81.28) (xy 160.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c86d10-a4a6-4973-8ecf-3c3c231a47d6")
+	)
+	(wire
+		(pts
+			(xy 163.83 99.06) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a456df0-7719-41ee-93fd-1398c0f5210f")
+	)
+	(wire
+		(pts
+			(xy 160.02 72.39) (xy 160.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549a5c98-4e0e-4272-b263-680d2a3ebba0")
+	)
+	(wire
+		(pts
+			(xy 200.66 69.85) (xy 200.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a88139-d0c7-4343-ad4e-5146a82419ad")
+	)
+	(wire
+		(pts
+			(xy 204.47 81.28) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef13cf9-bab0-41d9-a67f-5b7431d571b9")
+	)
+	(wire
+		(pts
+			(xy 204.47 90.17) (xy 200.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fe1103-5866-4bd2-bcb1-d7ce1b33d239")
+	)
+	(wire
+		(pts
+			(xy 204.47 87.63) (xy 200.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d0b7d4-a894-4a47-8f72-22ce3c8676c5")
+	)
+	(wire
+		(pts
+			(xy 124.46 90.17) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d479c73-c270-4860-832a-653386a670fa")
+	)
+	(wire
+		(pts
+			(xy 200.66 90.17) (xy 200.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741f334e-e100-4ae8-8cac-160202c64eec")
+	)
+	(wire
+		(pts
+			(xy 200.66 72.39) (xy 204.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c296ed-de18-4b78-ae73-49810af99505")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86626a1d-3885-4687-b1ab-4f25bd0fc776")
+	)
+	(wire
+		(pts
+			(xy 160.02 72.39) (xy 163.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ac72a7-e2d2-4217-8528-898df49e8f2e")
+	)
+	(wire
+		(pts
+			(xy 163.83 81.28) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7bffc4-8b91-4cde-8761-f304b47b0661")
+	)
+	(wire
+		(pts
+			(xy 120.65 90.17) (xy 120.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927a9785-91e9-4491-b5b3-8f9d77a05412")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15f6053-1df6-4377-89d7-05fcd4b3de43")
+	)
+	(wire
+		(pts
+			(xy 160.02 90.17) (xy 160.02 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a460bb-8eff-478f-b0ca-4ffec05780b8")
+	)
+	(wire
+		(pts
+			(xy 160.02 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88796d7-5418-473e-a61b-d8e69d92f94c")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af46f0af-d7a6-4e8c-952e-fa291c3eabbf")
+	)
+	(wire
+		(pts
+			(xy 114.3 80.01) (xy 120.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84577a1-c625-42c8-922a-8d0a4209e835")
+	)
+	(wire
+		(pts
+			(xy 124.46 87.63) (xy 120.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5cbd044-018f-432e-bd95-76017e808815")
+	)
+	(wire
+		(pts
+			(xy 120.65 87.63) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ee66e0-938b-4b4e-a1ef-43a1a0e9e49c")
+	)
+	(wire
+		(pts
+			(xy 163.83 90.17) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b7129b-3939-434e-aac9-83c0624b6e57")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 160.02 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf3c206-5da1-4aed-9aee-7ac2aaec1f44")
+	)
+	(wire
+		(pts
+			(xy 124.46 69.85) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8e1548-7f6d-49b3-ad59-cc0f0f35526b")
+	)
+	(wire
+		(pts
+			(xy 200.66 78.74) (xy 204.47 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd89810f-17e0-4549-aed1-43c4dd1c9175")
+	)
+	(rectangle
+		(start 44.45 130.175)
+		(end 95.25 177.165)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7a565225-c098-4c65-bc92-664363ef157c)
+	)
+	(rectangle
+		(start 104.14 64.77)
+		(end 228.6 106.045)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8a46a48a-94ec-4065-9fe0-759dccb58122)
+	)
+	(rectangle
+		(start 73.025 64.77)
+		(end 94.615 95.25)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid da924051-af80-4553-aabb-f98634314b57)
+	)
+	(text "Межплатные сигнальные разъёмы"
+		(exclude_from_sim no)
+		(at 33.02 128.905 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "17b64a97-6911-4818-a8c2-3d27ecd2f77f")
+	)
+	(text "Фазные разъёмы"
+		(exclude_from_sim no)
+		(at 66.04 63.5 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "24543f00-adc8-4ee2-96dc-4874ca9dfa11")
+	)
+	(text "Ножевые разъёмы"
+		(exclude_from_sim no)
+		(at 149.225 63.5 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7485eff5-bde7-4f55-b6c9-0bfa80eae3c2")
+	)
+	(global_label "Current_A_MCU"
+		(shape output)
+		(at 60.96 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e64c1cc-5b6d-46f7-a1aa-2d6857e9b035")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.8666 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C+"
+		(shape input)
+		(at 81.915 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17f06c05-24f5-4cb4-b1f4-b833ec874e0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.373 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Current_B_MCU"
+		(shape output)
+		(at 60.96 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3372e5f2-0509-4a27-94e6-365b46939190")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.8424 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C-"
+		(shape input)
+		(at 194.31 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34795505-4b39-44e0-abc2-8fe578470415")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.768 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Current_C_MCU"
+		(shape input)
+		(at 60.96 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65cf2723-c806-457c-bf99-69a65020dcb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.121 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A+"
+		(shape input)
+		(at 81.915 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6aec7c83-4b7a-4359-9c64-72e4bf645e6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.1187 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 81.915 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "747801eb-08b5-4863-823b-1fb0be37503e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.2452 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Temp_Coil_A_MCU"
+		(shape input)
+		(at 73.66 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74ac6c81-af72-462a-a3cc-d98a6e950da0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.276 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT_MCU"
+		(shape input)
+		(at 73.66 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bd4ee05-a676-44bc-9478-21442fad935d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Temp_Coil_B_MCU"
+		(shape input)
+		(at 73.66 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad04f4bf-5a7d-48a6-902d-420f79bb17c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.4574 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PTC_Coil_B"
+		(shape input)
+		(at 67.945 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5291e70-1fac-43eb-b400-9e3bcfb2ca6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.2836 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B-"
+		(shape input)
+		(at 153.67 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c87d4634-ad10-4eaa-9c5e-f3d258056f34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.0002 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PTC_Coil_A"
+		(shape input)
+		(at 67.945 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf1b9f89-5459-4c3d-99e2-8039cbfc1dc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.7394 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A-"
+		(shape input)
+		(at 114.3 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db6860cf-3318-47d3-a252-e06403cb9e5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.5037 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 73.025 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "274dd4bf-352c-4706-8ed3-76e4f7f95b2c")
+		(property "Reference" "J8"
+			(at 74.93 165.7349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Temp"
+			(at 74.93 168.2749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 73.025 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.025 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.025 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ac418e1-bc31-4eb7-8f17-b7ad4f92de83")
+		)
+		(pin "2"
+			(uuid "b88fa542-da76-4a95-b9c5-45b35fc45dfc")
+		)
+		(pin "3"
+			(uuid "674959f0-7c27-4d68-b62e-56f32dc65657")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 86.995 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5181222d-671a-4b6d-9aca-7b06d73bb2f0")
+		(property "Reference" "J3"
+			(at 85.725 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 89.535 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_My:Power_Wire"
+			(at 86.995 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.995 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5fd9682-41ea-4c9b-8464-0c467501d4cd")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4900:4900")
+		(at 163.83 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5684face-68e0-4c95-b429-2e8ca2dcf6af")
+		(property "Reference" "J12"
+			(at 180.34 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4900"
+			(at 180.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_My:4900"
+			(at 180.34 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+			(at 180.34 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.72"
+			(at 180.34 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 180.34 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "4900"
+			(at 180.34 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-4900"
+			(at 180.34 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+			(at 180.34 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 180.34 964.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 180.34 1064.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a11c2e7-7e21-4d07-900a-4ff4693072c9")
+		)
+		(pin "2"
+			(uuid "5be3abb6-a500-4456-b362-60a9feea5efd")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4900:4900")
+		(at 204.47 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83de68d1-c6e7-4fad-bf4a-d45ad8239aca")
+		(property "Reference" "J11"
+			(at 220.98 89.5349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4900"
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_My:4900"
+			(at 220.98 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+			(at 220.98 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.72"
+			(at 220.98 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 220.98 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "4900"
+			(at 220.98 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-4900"
+			(at 220.98 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+			(at 220.98 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 220.98 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 220.98 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "336d18d7-11e3-4f77-acb4-b1af5833986f")
+		)
+		(pin "2"
+			(uuid "5681b366-4bbe-46c4-b33f-78c5f1dfac13")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4900:4900")
+		(at 124.46 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88ac7c58-a619-40cc-8ecc-cb4b69edee50")
+		(property "Reference" "J6"
+			(at 140.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4900"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_My:4900"
+			(at 140.97 173.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+			(at 140.97 273.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.72"
+			(at 140.97 473.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 140.97 573.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "4900"
+			(at 140.97 673.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-4900"
+			(at 140.97 773.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+			(at 140.97 873.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 140.97 973.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 140.97 1073.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01012999-2c2a-4ce8-9c88-ef9afd5f78db")
+		)
+		(pin "2"
+			(uuid "ad40f548-31be-4ecc-8ef9-52dfa0cedba1")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 86.995 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c15dd2a-d500-43ff-a6e6-e51ef03b0d79")
+		(property "Reference" "J2"
+			(at 85.725 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B"
+			(at 89.535 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_My:Power_Wire"
+			(at 86.995 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.995 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c15f9a4f-8d55-46e9-b48b-b5a97744d554")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4900:4900")
+		(at 163.83 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e4be74a-1bb5-4273-9dbc-cf13a7f9f1c8")
+		(property "Reference" "J14"
+			(at 180.34 89.5349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4900"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_My:4900"
+			(at 180.34 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+			(at 180.34 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.72"
+			(at 180.34 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 180.34 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "4900"
+			(at 180.34 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-4900"
+			(at 180.34 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+			(at 180.34 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 180.34 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 180.34 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2442318-7c77-4072-97ca-449097dbbc38")
+		)
+		(pin "2"
+			(uuid "c3478bb0-74fa-404c-81d3-792ebdc5fd93")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4900:4900")
+		(at 163.83 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaebde15-4809-40c9-9bd1-e49336d973b6")
+		(property "Reference" "J4"
+			(at 180.34 98.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4900"
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_My:4900"
+			(at 180.34 191.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+			(at 180.34 291.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.72"
+			(at 180.34 491.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 180.34 591.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "4900"
+			(at 180.34 691.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-4900"
+			(at 180.34 791.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+			(at 180.34 891.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 180.34 991.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 180.34 1091.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0025a4de-dee1-4851-a037-f5cc32540fe0")
+		)
+		(pin "2"
+			(uuid "053e8c6b-fa2c-4d59-a61f-341937ca0dc8")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4900:4900")
+		(at 124.46 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae5c4302-c8b6-4c7c-ba14-7e64830eacba")
+		(property "Reference" "J5"
+			(at 140.97 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4900"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_My:4900"
+			(at 140.97 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+			(at 140.97 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.72"
+			(at 140.97 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 140.97 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "4900"
+			(at 140.97 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-4900"
+			(at 140.97 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+			(at 140.97 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 140.97 964.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 140.97 1064.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb332b80-585e-4138-91a1-e84efbfbe120")
+		)
+		(pin "2"
+			(uuid "dc43eb20-9062-4da1-ba49-583a7bcbbbf2")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 66.04 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b87a4eb1-0638-4650-b4ab-84741e62bea3")
+		(property "Reference" "J15"
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x04_Odd_Even"
+			(at 67.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical"
+			(at 66.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d11b6099-7d08-4113-a899-a6c48361beaa")
+		)
+		(pin "2"
+			(uuid "8dc40945-6c0f-42dc-9b0d-8ddbe8b78b36")
+		)
+		(pin "3"
+			(uuid "2e3a7c86-ce24-41f6-8c76-8d64232de623")
+		)
+		(pin "4"
+			(uuid "8e415074-824d-4d93-bb60-bcf38e8e542a")
+		)
+		(pin "5"
+			(uuid "8933d97d-d45d-4ae5-9542-008b18da40e9")
+		)
+		(pin "6"
+			(uuid "8634b7b8-9a19-4118-aa86-95834c0f3041")
+		)
+		(pin "7"
+			(uuid "e1e7d5bf-592d-402b-b68d-6cc233a2e6e0")
+		)
+		(pin "8"
+			(uuid "61b4e8b2-47c7-4cda-8ffa-7fd37269be19")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4900:4900")
+		(at 204.47 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b93d71b8-697e-4ecf-ba44-9668482d8822")
+		(property "Reference" "J7"
+			(at 220.98 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4900"
+			(at 220.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_My:4900"
+			(at 220.98 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+			(at 220.98 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.72"
+			(at 220.98 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 220.98 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "4900"
+			(at 220.98 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-4900"
+			(at 220.98 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+			(at 220.98 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 220.98 964.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 220.98 1064.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f23fc66-47af-4a12-b284-446b529ba7f6")
+		)
+		(pin "2"
+			(uuid "f053e7f1-d368-4fa3-8bf3-18a73ac50607")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 67.945 168.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bee659e3-800a-411c-8cb7-6784efd56c2c")
+		(property "Reference" "#PWR038"
+			(at 61.595 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 64.135 169.5449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.945 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.945 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.945 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f04256d-d4ef-4db8-87a9-68390ed68f9a")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4900:4900")
+		(at 163.83 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2305888-b448-48b9-bf06-c5f979e9cb6b")
+		(property "Reference" "J13"
+			(at 180.34 80.6449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4900"
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_My:4900"
+			(at 180.34 173.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+			(at 180.34 273.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.72"
+			(at 180.34 473.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 180.34 573.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "4900"
+			(at 180.34 673.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-4900"
+			(at 180.34 773.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+			(at 180.34 873.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 180.34 973.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 180.34 1073.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a13546d-6dad-47f9-b872-108839c0adbb")
+		)
+		(pin "2"
+			(uuid "a154d72d-41ee-4c49-b64c-f6f3053e948b")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4900:4900")
+		(at 124.46 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdddbc1b-c66c-414c-90cc-ec9842f58d3e")
+		(property "Reference" "J9"
+			(at 140.97 89.5349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4900"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_My:4900"
+			(at 140.97 182.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+			(at 140.97 282.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.72"
+			(at 140.97 482.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 140.97 582.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "4900"
+			(at 140.97 682.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-4900"
+			(at 140.97 782.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+			(at 140.97 882.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 140.97 982.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 140.97 1082.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c156381-caa4-4328-97a3-65bca8b2266f")
+		)
+		(pin "2"
+			(uuid "15b7daa9-322b-4bb3-bc95-548120d17ce1")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4900:4900")
+		(at 204.47 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2aacf6e-1e74-4c7c-b928-8bff61480103")
+		(property "Reference" "J10"
+			(at 220.98 80.6449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4900"
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_My:4900"
+			(at 220.98 173.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
+			(at 220.98 273.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.72"
+			(at 220.98 473.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 220.98 573.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "4900"
+			(at 220.98 673.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-4900"
+			(at 220.98 773.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
+			(at 220.98 873.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 220.98 973.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 220.98 1073.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e798a73-2683-4ee4-afb2-fb5505b0f14f")
+		)
+		(pin "2"
+			(uuid "489b4a21-2e08-42b6-806b-fa1f11e04698")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 73.66 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8fe130f-4c16-4294-8a60-51e6d244b8fb")
+		(property "Reference" "#PWR023"
+			(at 80.01 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 77.47 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "424cc0c6-3917-4563-98b8-ee862ad612fc")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 86.995 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e59b7b71-cf8d-4880-bd57-2db1031f9738")
+		(property "Reference" "J1"
+			(at 85.725 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A"
+			(at 89.535 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_My:Power_Wire"
+			(at 86.995 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.995 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.995 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09de28f0-15d1-432d-a3e9-35d932c147e8")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 60.96 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fce2eb31-ad13-4c91-be14-155f705af398")
+		(property "Reference" "#PWR022"
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 57.15 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07e9dfca-f4d9-4f87-92b5-f57552ba1579")
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb/555e8538-1d60-4a85-8162-4c8254aec889"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

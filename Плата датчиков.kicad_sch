@@ -1,133 +1,280 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 69677e3f-3942-4c93-9a5c-92669e2df5eb)
-
-  (paper "A4")
-
-  (title_block
-    (title "Измерительный узел")
-    (date "2023-12-14")
-    (comment 1 "МПСТ.76721.758764.03.М Э3")
-    (comment 2 "Филатов")
-    (comment 3 "Нестеров")
-    (comment 4 "Келлер")
-    (comment 5 "Шевырев")
-    (comment 6 "Саяхов")
-  )
-
-  (lib_symbols
-  )
-
-
-  (text "Схема электрическая\n" (at 189.865 183.515 0)
-    (effects (font (size 2.5 2.5)) (justify left bottom))
-    (uuid 220b33a3-244f-403e-97cd-e4a9517028c9)
-  )
-  (text "принципиальная\n" (at 193.675 186.69 0)
-    (effects (font (size 2.5 2.5)) (justify left bottom))
-    (uuid 85f910a9-fd18-4487-bfdd-4571b552e6a8)
-  )
-  (text "Схема электрическая" (at 313.055 272.415 0)
-    (effects (font (size 2.5 2.5)) (justify left bottom))
-    (uuid 8f9c805b-f98e-492c-b8db-b8f85b977ed1)
-  )
-  (text "принципиальная" (at 317.5 276.225 0)
-    (effects (font (size 2.5 2.5)) (justify left bottom))
-    (uuid bbf139a1-779b-495c-9226-4ebc14448ef6)
-  )
-
-  (sheet (at 116.84 42.545) (size 56.515 36.195) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0447fd9f-08b2-4399-8f4a-dc90b927aeac)
-    (property "Sheetname" "Current_Sensoors" (at 116.84 40.7184 0)
-      (effects (font (size 3.5 3.5)) (justify left bottom))
-    )
-    (property "Sheetfile" "Curret_Sensors.kicad_sch" (at 116.84 79.3246 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 177.8 88.9) (size 55.88 36.195) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 25ee8137-5200-4a92-a72b-f10625be9855)
-    (property "Sheetname" "Conection_list" (at 177.8 87.0734 0)
-      (effects (font (size 3.5 3.5)) (justify left bottom))
-    )
-    (property "Sheetfile" "Conection_list.kicad_sch" (at 177.8 125.6796 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Поле2" "" (at 177.8 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 117.475 88.9) (size 55.88 36.195) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 555e8538-1d60-4a85-8162-4c8254aec889)
-    (property "Sheetname" "Connectors" (at 117.475 87.0734 0)
-      (effects (font (size 3.5 3.5)) (justify left bottom))
-    )
-    (property "Sheetfile" "Connectors.kicad_sch" (at 117.475 125.6796 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Поле2" "" (at 117.475 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 56.515 42.545) (size 56.515 36.195) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5690081b-3349-4182-b71e-e3d982c64d0f)
-    (property "Sheetname" "Temperature" (at 56.515 40.7184 0)
-      (effects (font (size 3.5 3.5)) (justify left bottom))
-    )
-    (property "Sheetfile" "Temperature.kicad_sch" (at 56.515 79.3246 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 56.515 88.9) (size 56.515 36.195) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid bcde038a-9c61-4256-93bc-e646290f2e91)
-    (property "Sheetname" "Rotary_Position_Sensor" (at 56.515 87.0734 0)
-      (effects (font (size 3.5 3.5)) (justify left bottom))
-    )
-    (property "Sheetfile" "Rotary_Position_Sensor.kicad_sch" (at 56.515 125.6796 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (instances
-      (project "Плата датчиков"
-        (path "/69677e3f-3942-4c93-9a5c-92669e2df5eb" (page "4"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "69677e3f-3942-4c93-9a5c-92669e2df5eb")
+	(paper "A4")
+	(title_block
+		(title "Измерительный узел")
+		(date "2023-12-14")
+		(comment 1 "МПСТ.76721.758764.03.М Э3")
+		(comment 2 "Филатов")
+		(comment 3 "Нестеров")
+		(comment 4 "Келлер")
+		(comment 5 "Шевырев")
+		(comment 6 "Саяхов")
+	)
+	(lib_symbols)
+	(text "Схема электрическая\n"
+		(exclude_from_sim no)
+		(at 189.865 183.515 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "220b33a3-244f-403e-97cd-e4a9517028c9")
+	)
+	(text "принципиальная\n"
+		(exclude_from_sim no)
+		(at 193.675 186.69 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "85f910a9-fd18-4487-bfdd-4571b552e6a8")
+	)
+	(text "Схема электрическая"
+		(exclude_from_sim no)
+		(at 313.055 272.415 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f9c805b-f98e-492c-b8db-b8f85b977ed1")
+	)
+	(text "принципиальная"
+		(exclude_from_sim no)
+		(at 317.5 276.225 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbf139a1-779b-495c-9226-4ebc14448ef6")
+	)
+	(sheet
+		(at 116.84 42.545)
+		(size 56.515 36.195)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0447fd9f-08b2-4399-8f4a-dc90b927aeac")
+		(property "Sheetname" "Current_Sensoors"
+			(at 116.84 40.7184 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Curret_Sensors.kicad_sch"
+			(at 116.84 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 88.9)
+		(size 55.88 36.195)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25ee8137-5200-4a92-a72b-f10625be9855")
+		(property "Sheetname" "Conection_list"
+			(at 177.8 87.0734 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Conection_list.kicad_sch"
+			(at 177.8 125.6796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Поле2" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 117.475 88.9)
+		(size 55.88 36.195)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "555e8538-1d60-4a85-8162-4c8254aec889")
+		(property "Sheetname" "Connectors"
+			(at 117.475 87.0734 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 117.475 125.6796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Поле2" ""
+			(at 117.475 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 42.545)
+		(size 56.515 36.195)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5690081b-3349-4182-b71e-e3d982c64d0f")
+		(property "Sheetname" "Temperature"
+			(at 56.515 40.7184 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Temperature.kicad_sch"
+			(at 56.515 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 88.9)
+		(size 56.515 36.195)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bcde038a-9c61-4256-93bc-e646290f2e91")
+		(property "Sheetname" "Rotary_Position_Sensor"
+			(at 56.515 87.0734 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Rotary_Position_Sensor.kicad_sch"
+			(at 56.515 125.6796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Плата датчиков"
+				(path "/69677e3f-3942-4c93-9a5c-92669e2df5eb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
