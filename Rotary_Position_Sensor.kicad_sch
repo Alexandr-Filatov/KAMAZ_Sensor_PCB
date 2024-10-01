@@ -1284,7 +1284,7 @@
 				)
 			)
 		)
-		(property "Value" "NSM3012"
+		(property "Value" "NSM3012B-DSPR"
 			(at 161.925 93.98 0)
 			(effects
 				(font
