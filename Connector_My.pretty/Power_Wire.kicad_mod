@@ -1,17 +1,87 @@
-(footprint "Power_Wire" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -5.08 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 65236e85-32c1-4f48-9da3-998c3a0d82ef)
-  )
-  (fp_text value "Power_Wire" (at 0 5.08 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d0fccc1d-51f3-4091-851a-124fe7a94c35)
-  )
-  (fp_text user "${REFERENCE}" (at 0 6.58 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp b6f546be-0534-47d8-a563-5a1fc9a096af)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 86fea6c7-471e-41ea-abee-2f381d3610e2))
+(footprint "Power_Wire"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "65236e85-32c1-4f48-9da3-998c3a0d82ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Power_Wire"
+		(at 0 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d0fccc1d-51f3-4091-851a-124fe7a94c35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "985cf9f5-fd33-44bf-a77c-f47fa4f36511")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86e9887e-0f78-4fe8-ac9b-5091de76815a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebf5e633-03cd-4d90-bd20-638b8ae4c0ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.58 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b6f546be-0534-47d8-a563-5a1fc9a096af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7 7)
+		(drill 4.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86fea6c7-471e-41ea-abee-2f381d3610e2")
+	)
 )
