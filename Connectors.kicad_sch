@@ -5,7 +5,7 @@
 	(uuid "d5ce18df-a7c3-4e72-a6c7-628108ee7f4d")
 	(paper "A4")
 	(title_block
-		(comment 1 "МПСТ.76721.758764.03.М Э3")
+		(comment 1 "МПСТ.6319.758764.03.М Э3")
 	)
 	(lib_symbols
 		(symbol "4900:4900"
@@ -1221,126 +1221,126 @@
 		)
 	)
 	(junction
-		(at 160.02 81.28)
+		(at 149.225 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04a92b1d-1472-452b-9bba-248a857d6756")
 	)
 	(junction
-		(at 200.66 72.39)
+		(at 189.865 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "131a9387-90bb-436a-ace7-2fc13e6a3b14")
 	)
 	(junction
-		(at 120.65 78.74)
+		(at 109.855 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f1913ff-95dc-41ba-8c3a-a66251da732a")
 	)
 	(junction
-		(at 160.02 78.74)
+		(at 149.225 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2052ba08-4a29-43e9-9d0c-fa7e7b73fa1d")
 	)
 	(junction
-		(at 120.65 72.39)
+		(at 109.855 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41ee52bd-5ea1-42e8-91a8-a1e8b493c99f")
 	)
 	(junction
-		(at 160.02 96.52)
+		(at 149.225 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cd93c24-9ce4-492c-97b2-05f383b4d892")
 	)
 	(junction
-		(at 160.02 72.39)
+		(at 149.225 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "573befc2-9c4f-44e3-9e7b-611dd5dcde6b")
 	)
 	(junction
-		(at 120.65 80.01)
+		(at 109.855 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a34b46e-dd40-49a1-aee5-a149493e6973")
 	)
 	(junction
-		(at 200.66 81.28)
+		(at 189.865 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "629bd0d3-75ef-47a7-ad36-5aed9b2238b5")
 	)
 	(junction
-		(at 200.66 87.63)
+		(at 189.865 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74aa26bf-2aca-4ea3-820d-9dd8105ea5fb")
 	)
 	(junction
-		(at 120.65 81.28)
+		(at 109.855 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ae9e8c3-14df-4a8b-bce4-e9abdbd659e4")
 	)
 	(junction
-		(at 120.65 87.63)
+		(at 109.855 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b834ac4a-9fee-452a-bcbe-8f7cb6ff1be9")
 	)
 	(junction
-		(at 160.02 90.17)
+		(at 149.225 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6170a8c-e110-4b9d-a457-49309254b657")
 	)
 	(junction
-		(at 160.02 87.63)
+		(at 149.225 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e57a1d2d-567e-4f93-b0d7-958361013bd1")
 	)
 	(junction
-		(at 200.66 80.01)
+		(at 189.865 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebdf6da9-9566-4392-9868-00c693ed12b6")
 	)
 	(junction
-		(at 160.02 80.01)
+		(at 149.225 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2eeca3e-5e54-424a-b3d0-c73e1f8276e4")
 	)
 	(junction
-		(at 200.66 78.74)
+		(at 189.865 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3fa79ce-6db4-4f9d-8641-f4534c24860a")
 	)
 	(no_connect
-		(at 81.28 161.29)
+		(at 151.13 156.845)
 		(uuid "57347739-5dab-4cc9-a9d3-3486d8315e33")
 	)
 	(no_connect
-		(at 81.28 151.13)
+		(at 151.13 146.685)
 		(uuid "7136570c-c55f-41d3-bb3f-98d8a9997f81")
 	)
 	(no_connect
-		(at 81.28 158.75)
+		(at 151.13 154.305)
 		(uuid "a03dc4ac-770e-4b33-b1b5-497ac3cd7872")
 	)
 	(no_connect
-		(at 81.28 153.67)
+		(at 151.13 149.225)
 		(uuid "f0e43c62-de93-4daf-9df5-4a75ca43426f")
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 160.02 90.17)
+			(xy 149.225 99.06) (xy 149.225 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 69.85) (xy 160.02 69.85)
+			(xy 153.035 72.39) (xy 149.225 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 81.28) (xy 120.65 80.01)
+			(xy 109.855 83.82) (xy 109.855 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 80.01) (xy 200.66 78.74)
+			(xy 189.865 82.55) (xy 189.865 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1380,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 69.85) (xy 200.66 69.85)
+			(xy 193.675 72.39) (xy 189.865 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1390,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 81.28) (xy 200.66 80.01)
+			(xy 189.865 83.82) (xy 189.865 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 80.01) (xy 200.66 80.01)
+			(xy 183.515 82.55) (xy 189.865 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1410,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 72.39) (xy 120.65 78.74)
+			(xy 109.855 74.93) (xy 109.855 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1420,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 87.63) (xy 200.66 81.28)
+			(xy 189.865 90.17) (xy 189.865 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1430,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 87.63) (xy 160.02 87.63)
+			(xy 153.035 90.17) (xy 149.225 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1440,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 80.01) (xy 160.02 80.01)
+			(xy 142.875 82.55) (xy 149.225 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1450,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 72.39) (xy 124.46 72.39)
+			(xy 109.855 74.93) (xy 113.665 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 78.74) (xy 124.46 78.74)
+			(xy 109.855 81.28) (xy 113.665 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 160.02 96.52)
+			(xy 149.225 101.6) (xy 149.225 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 80.01) (xy 160.02 78.74)
+			(xy 149.225 82.55) (xy 149.225 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1490,7 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 72.39) (xy 200.66 78.74)
+			(xy 189.865 74.93) (xy 189.865 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 96.52) (xy 160.02 96.52)
+			(xy 153.035 99.06) (xy 149.225 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 160.02 81.28)
+			(xy 149.225 90.17) (xy 149.225 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 81.28) (xy 160.02 80.01)
+			(xy 149.225 83.82) (xy 149.225 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 99.06) (xy 160.02 99.06)
+			(xy 153.035 101.6) (xy 149.225 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 72.39) (xy 160.02 78.74)
+			(xy 149.225 74.93) (xy 149.225 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 69.85) (xy 200.66 72.39)
+			(xy 189.865 72.39) (xy 189.865 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 81.28) (xy 200.66 81.28)
+			(xy 193.675 83.82) (xy 189.865 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 90.17) (xy 200.66 90.17)
+			(xy 193.675 92.71) (xy 189.865 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1580,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 87.63) (xy 200.66 87.63)
+			(xy 193.675 90.17) (xy 189.865 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1590,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 90.17) (xy 120.65 90.17)
+			(xy 113.665 92.71) (xy 109.855 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 90.17) (xy 200.66 87.63)
+			(xy 189.865 92.71) (xy 189.865 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1610,7 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 72.39) (xy 204.47 72.39)
+			(xy 189.865 74.93) (xy 193.675 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1620,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 69.85) (xy 120.65 72.39)
+			(xy 109.855 72.39) (xy 109.855 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 72.39) (xy 163.83 72.39)
+			(xy 149.225 74.93) (xy 153.035 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1640,7 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 160.02 81.28)
+			(xy 153.035 83.82) (xy 149.225 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 90.17) (xy 120.65 87.63)
+			(xy 109.855 92.71) (xy 109.855 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1660,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 81.28) (xy 120.65 81.28)
+			(xy 113.665 83.82) (xy 109.855 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1670,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 160.02 87.63)
+			(xy 149.225 92.71) (xy 149.225 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1680,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 78.74) (xy 163.83 78.74)
+			(xy 149.225 81.28) (xy 153.035 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1690,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 120.65 78.74)
+			(xy 109.855 82.55) (xy 109.855 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1700,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 80.01) (xy 120.65 80.01)
+			(xy 103.505 82.55) (xy 109.855 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1710,7 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 87.63) (xy 120.65 87.63)
+			(xy 113.665 90.17) (xy 109.855 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1720,7 +1720,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 87.63) (xy 120.65 81.28)
+			(xy 109.855 90.17) (xy 109.855 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1730,7 +1730,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 90.17) (xy 160.02 90.17)
+			(xy 153.035 92.71) (xy 149.225 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1740,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 69.85) (xy 160.02 72.39)
+			(xy 149.225 72.39) (xy 149.225 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1750,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 69.85) (xy 120.65 69.85)
+			(xy 113.665 72.39) (xy 109.855 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1760,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 78.74) (xy 204.47 78.74)
+			(xy 189.865 81.28) (xy 193.675 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1769,8 +1769,8 @@
 		(uuid "fd89810f-17e0-4549-aed1-43c4dd1c9175")
 	)
 	(rectangle
-		(start 44.45 130.175)
-		(end 95.25 177.165)
+		(start 128.27 125.095)
+		(end 179.07 172.085)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1781,8 +1781,8 @@
 		(uuid 7a565225-c098-4c65-bc92-664363ef157c)
 	)
 	(rectangle
-		(start 104.14 64.77)
-		(end 228.6 106.045)
+		(start 93.345 67.31)
+		(end 217.805 108.585)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1793,8 +1793,8 @@
 		(uuid 8a46a48a-94ec-4065-9fe0-759dccb58122)
 	)
 	(rectangle
-		(start 73.025 64.77)
-		(end 94.615 95.25)
+		(start 145.415 24.13)
+		(end 167.005 54.61)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1806,7 +1806,7 @@
 	)
 	(text "Межплатные сигнальные разъёмы"
 		(exclude_from_sim no)
-		(at 33.02 128.905 0)
+		(at 116.84 123.825 0)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -1818,7 +1818,7 @@
 	)
 	(text "Фазные разъёмы"
 		(exclude_from_sim no)
-		(at 66.04 63.5 0)
+		(at 138.43 22.86 0)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -1831,7 +1831,7 @@
 	)
 	(text "Ножевые разъёмы"
 		(exclude_from_sim no)
-		(at 149.225 63.5 0)
+		(at 138.43 66.04 0)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -1844,7 +1844,7 @@
 	)
 	(global_label "Current_A_MCU"
 		(shape output)
-		(at 77.47 140.97 0)
+		(at 161.29 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1854,7 +1854,7 @@
 		)
 		(uuid "0e64c1cc-5b6d-46f7-a1aa-2d6857e9b035")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5634 140.97 0)
+			(at 176.3834 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1866,7 @@
 	)
 	(global_label "C+"
 		(shape input)
-		(at 81.915 86.36 180)
+		(at 154.305 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1876,7 +1876,7 @@
 		)
 		(uuid "17f06c05-24f5-4cb4-b1f4-b833ec874e0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.373 86.36 0)
+			(at 149.763 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1888,7 @@
 	)
 	(global_label "Current_B_MCU"
 		(shape output)
-		(at 77.47 138.43 0)
+		(at 161.29 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1898,7 +1898,7 @@
 		)
 		(uuid "3372e5f2-0509-4a27-94e6-365b46939190")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.5876 138.43 0)
+			(at 178.4076 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +1910,7 @@
 	)
 	(global_label "C-"
 		(shape input)
-		(at 194.31 80.01 180)
+		(at 183.515 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1920,7 +1920,7 @@
 		)
 		(uuid "34795505-4b39-44e0-abc2-8fe578470415")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.768 80.01 0)
+			(at 178.973 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1932,7 @@
 	)
 	(global_label "Current_C_MCU"
 		(shape input)
-		(at 77.47 135.89 0)
+		(at 161.29 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1942,7 +1942,7 @@
 		)
 		(uuid "65cf2723-c806-457c-bf99-69a65020dcb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.309 135.89 0)
+			(at 176.129 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1954,7 @@
 	)
 	(global_label "A+"
 		(shape input)
-		(at 81.915 73.66 180)
+		(at 154.305 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1964,7 +1964,7 @@
 		)
 		(uuid "6aec7c83-4b7a-4359-9c64-72e4bf645e6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.1187 73.66 0)
+			(at 149.5087 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +1976,7 @@
 	)
 	(global_label "B+"
 		(shape input)
-		(at 81.915 80.01 180)
+		(at 154.305 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1986,7 +1986,7 @@
 		)
 		(uuid "747801eb-08b5-4863-823b-1fb0be37503e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.2452 80.01 0)
+			(at 149.6352 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +1998,7 @@
 	)
 	(global_label "Temp_Coil_A_MCU"
 		(shape input)
-		(at 64.77 140.97 180)
+		(at 148.59 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2008,7 +2008,7 @@
 		)
 		(uuid "74ac6c81-af72-462a-a3cc-d98a6e950da0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.154 140.97 0)
+			(at 128.974 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2020,7 @@
 	)
 	(global_label "OUT_MCU"
 		(shape input)
-		(at 64.77 135.89 180)
+		(at 148.59 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2030,7 +2030,7 @@
 		)
 		(uuid "9bd4ee05-a676-44bc-9478-21442fad935d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.76 135.89 0)
+			(at 138.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2042,7 @@
 	)
 	(global_label "Temp_Coil_B_MCU"
 		(shape input)
-		(at 64.77 138.43 180)
+		(at 148.59 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2052,7 +2052,7 @@
 		)
 		(uuid "ad04f4bf-5a7d-48a6-902d-420f79bb17c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.9726 138.43 0)
+			(at 128.7926 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2064,7 @@
 	)
 	(global_label "PTC_Coil_B"
 		(shape input)
-		(at 67.945 166.37 180)
+		(at 151.765 164.465 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2074,7 +2074,7 @@
 		)
 		(uuid "b5291e70-1fac-43eb-b400-9e3bcfb2ca6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.2836 166.37 0)
+			(at 140.1036 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2086,7 @@
 	)
 	(global_label "B-"
 		(shape input)
-		(at 153.67 80.01 180)
+		(at 142.875 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2096,7 +2096,7 @@
 		)
 		(uuid "c87d4634-ad10-4eaa-9c5e-f3d258056f34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.0002 80.01 0)
+			(at 138.2052 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2108,7 @@
 	)
 	(global_label "PTC_Coil_A"
 		(shape input)
-		(at 67.945 163.83 180)
+		(at 151.765 161.925 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2118,7 +2118,7 @@
 		)
 		(uuid "cf1b9f89-5459-4c3d-99e2-8039cbfc1dc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.7394 163.83 0)
+			(at 138.5594 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2130,7 @@
 	)
 	(global_label "A-"
 		(shape input)
-		(at 114.3 80.01 180)
+		(at 103.505 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2140,7 +2140,7 @@
 		)
 		(uuid "db6860cf-3318-47d3-a252-e06403cb9e5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.5037 80.01 0)
+			(at 98.7087 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2152,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 69.85 140.97 0)
+		(at 153.67 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2160,7 +2160,7 @@
 		(dnp no)
 		(uuid "0c230d43-f550-4813-8d2e-bc078d544166")
 		(property "Reference" "J18"
-			(at 71.12 133.35 0)
+			(at 154.94 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2168,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05_Odd_Even"
-			(at 71.12 132.08 0)
+			(at 154.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2177,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
-			(at 69.85 140.97 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 140.97 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2195,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 140.97 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2244,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 73.025 166.37 0)
+		(at 156.845 164.465 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2253,7 +2253,7 @@
 		(fields_autoplaced yes)
 		(uuid "274dd4bf-352c-4706-8ed3-76e4f7f95b2c")
 		(property "Reference" "J8"
-			(at 74.93 165.7349 0)
+			(at 158.75 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2262,7 @@
 			)
 		)
 		(property "Value" "Temp"
-			(at 74.93 168.2749 0)
+			(at 158.75 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2271,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 73.025 166.37 0)
+			(at 156.845 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.025 166.37 0)
+			(at 156.845 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2289,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.025 166.37 0)
+			(at 156.845 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2317,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 77.47 146.05 270)
+		(at 161.29 140.97 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2327,7 +2327,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f82d3d0-5ac1-40e2-95d8-9e156d93f5c4")
 		(property "Reference" "#PWR029"
-			(at 73.66 146.05 0)
+			(at 157.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2336,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 81.28 146.05 90)
+			(at 165.1 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 146.05 0)
+			(at 161.29 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 146.05 0)
+			(at 161.29 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2363,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 146.05 0)
+			(at 161.29 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +2385,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.995 86.36 0)
+		(at 159.385 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2393,7 +2393,7 @@
 		(dnp no)
 		(uuid "5181222d-671a-4b6d-9aca-7b06d73bb2f0")
 		(property "Reference" "J3"
-			(at 85.725 83.82 0)
+			(at 158.115 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2402,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 89.535 86.36 0)
+			(at 161.925 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2411,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:Power_Wire"
-			(at 86.995 86.36 0)
+			(at 159.385 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.995 86.36 0)
+			(at 159.385 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2429,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.995 86.36 0)
+			(at 159.385 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +2451,7 @@
 	)
 	(symbol
 		(lib_id "4900:4900")
-		(at 163.83 69.85 0)
+		(at 153.035 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2460,7 +2460,7 @@
 		(fields_autoplaced yes)
 		(uuid "5684face-68e0-4c95-b429-2e8ca2dcf6af")
 		(property "Reference" "J12"
-			(at 180.34 71.7549 0)
+			(at 169.545 74.2949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2469,7 @@
 			)
 		)
 		(property "Value" "4900"
-			(at 180.34 72.39 0)
+			(at 169.545 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +2479,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:4900"
-			(at 180.34 164.77 0)
+			(at 169.545 167.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2489,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
-			(at 180.34 264.77 0)
+			(at 169.545 267.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 69.85 0)
+			(at 153.035 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2508,7 @@
 			)
 		)
 		(property "Height" "10.72"
-			(at 180.34 464.77 0)
+			(at 169.545 467.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2518,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 180.34 564.77 0)
+			(at 169.545 567.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2528,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "4900"
-			(at 180.34 664.77 0)
+			(at 169.545 667.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2538,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-4900"
-			(at 180.34 764.77 0)
+			(at 169.545 767.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2548,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
-			(at 180.34 864.77 0)
+			(at 169.545 867.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2558,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 180.34 964.77 0)
+			(at 169.545 967.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2568,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 180.34 1064.77 0)
+			(at 169.545 1067.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2594,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 64.77 146.05 270)
+		(at 148.59 140.97 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2604,7 +2604,7 @@
 		(fields_autoplaced yes)
 		(uuid "56ce1e45-176e-410c-aedf-430adc7f9686")
 		(property "Reference" "#PWR028"
-			(at 58.42 146.05 0)
+			(at 142.24 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2613,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 60.96 146.05 90)
+			(at 144.78 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 146.05 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +2631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 146.05 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 146.05 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2662,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 86.36 158.75 0)
+		(at 156.21 154.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2671,7 +2671,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a8ce46c-f056-41dd-9662-4872168b0bee")
 		(property "Reference" "J17"
-			(at 88.9 158.7499 0)
+			(at 158.75 154.3049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +2680,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 88.9 161.2899 0)
+			(at 158.75 156.8449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +2690,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
-			(at 86.36 158.75 0)
+			(at 156.21 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +2699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 158.75 0)
+			(at 156.21 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2708,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 158.75 0)
+			(at 156.21 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2733,7 @@
 	)
 	(symbol
 		(lib_id "4900:4900")
-		(at 204.47 87.63 0)
+		(at 193.675 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2742,7 +2742,7 @@
 		(fields_autoplaced yes)
 		(uuid "83de68d1-c6e7-4fad-bf4a-d45ad8239aca")
 		(property "Reference" "J11"
-			(at 220.98 89.5349 0)
+			(at 210.185 92.0749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2751,7 @@
 			)
 		)
 		(property "Value" "4900"
-			(at 220.98 90.17 0)
+			(at 210.185 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2761,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:4900"
-			(at 220.98 182.55 0)
+			(at 210.185 185.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
-			(at 220.98 282.55 0)
+			(at 210.185 285.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 87.63 0)
+			(at 193.675 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(property "Height" "10.72"
-			(at 220.98 482.55 0)
+			(at 210.185 485.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +2800,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 220.98 582.55 0)
+			(at 210.185 585.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,7 +2810,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "4900"
-			(at 220.98 682.55 0)
+			(at 210.185 685.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2820,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-4900"
-			(at 220.98 782.55 0)
+			(at 210.185 785.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +2830,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
-			(at 220.98 882.55 0)
+			(at 210.185 885.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2840,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 220.98 982.55 0)
+			(at 210.185 985.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2850,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 220.98 1082.55 0)
+			(at 210.185 1085.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +2876,7 @@
 	)
 	(symbol
 		(lib_id "4900:4900")
-		(at 124.46 78.74 0)
+		(at 113.665 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2884,7 +2884,7 @@
 		(dnp no)
 		(uuid "88ac7c58-a619-40cc-8ecc-cb4b69edee50")
 		(property "Reference" "J6"
-			(at 140.97 80.01 0)
+			(at 130.175 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +2893,7 @@
 			)
 		)
 		(property "Value" "4900"
-			(at 140.97 81.28 0)
+			(at 130.175 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +2903,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:4900"
-			(at 140.97 173.66 0)
+			(at 130.175 176.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2913,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
-			(at 140.97 273.66 0)
+			(at 130.175 276.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2923,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 78.74 0)
+			(at 113.665 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2932,7 @@
 			)
 		)
 		(property "Height" "10.72"
-			(at 140.97 473.66 0)
+			(at 130.175 476.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +2942,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 140.97 573.66 0)
+			(at 130.175 576.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +2952,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "4900"
-			(at 140.97 673.66 0)
+			(at 130.175 676.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +2962,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-4900"
-			(at 140.97 773.66 0)
+			(at 130.175 776.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2972,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
-			(at 140.97 873.66 0)
+			(at 130.175 876.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2982,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 140.97 973.66 0)
+			(at 130.175 976.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +2992,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 140.97 1073.66 0)
+			(at 130.175 1076.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3018,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 86.36 151.13 0)
+		(at 156.21 146.685 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3027,7 +3027,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b456292-21ca-45c3-97d8-28e01e301813")
 		(property "Reference" "J16"
-			(at 88.9 151.1299 0)
+			(at 158.75 146.6849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3036,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 88.9 153.6699 0)
+			(at 158.75 149.2249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +3046,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
-			(at 86.36 151.13 0)
+			(at 156.21 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +3055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 151.13 0)
+			(at 156.21 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +3064,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 151.13 0)
+			(at 156.21 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3089,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.995 80.01 0)
+		(at 159.385 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3097,7 +3097,7 @@
 		(dnp no)
 		(uuid "9c15dd2a-d500-43ff-a6e6-e51ef03b0d79")
 		(property "Reference" "J2"
-			(at 85.725 77.47 0)
+			(at 158.115 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3106,7 @@
 			)
 		)
 		(property "Value" "B"
-			(at 89.535 80.01 0)
+			(at 161.925 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,7 +3115,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:Power_Wire"
-			(at 86.995 80.01 0)
+			(at 159.385 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,7 +3124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.995 80.01 0)
+			(at 159.385 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3133,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.995 80.01 0)
+			(at 159.385 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +3155,7 @@
 	)
 	(symbol
 		(lib_id "4900:4900")
-		(at 163.83 87.63 0)
+		(at 153.035 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3164,7 +3164,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e4be74a-1bb5-4273-9dbc-cf13a7f9f1c8")
 		(property "Reference" "J14"
-			(at 180.34 89.5349 0)
+			(at 169.545 92.0749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3173,7 @@
 			)
 		)
 		(property "Value" "4900"
-			(at 180.34 90.17 0)
+			(at 169.545 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3183,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:4900"
-			(at 180.34 182.55 0)
+			(at 169.545 185.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3193,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
-			(at 180.34 282.55 0)
+			(at 169.545 285.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 87.63 0)
+			(at 153.035 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3212,7 @@
 			)
 		)
 		(property "Height" "10.72"
-			(at 180.34 482.55 0)
+			(at 169.545 485.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3222,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 180.34 582.55 0)
+			(at 169.545 585.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3232,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "4900"
-			(at 180.34 682.55 0)
+			(at 169.545 685.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +3242,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-4900"
-			(at 180.34 782.55 0)
+			(at 169.545 785.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3252,7 +3252,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
-			(at 180.34 882.55 0)
+			(at 169.545 885.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +3262,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 180.34 982.55 0)
+			(at 169.545 985.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3272,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 180.34 1082.55 0)
+			(at 169.545 1085.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3298,7 @@
 	)
 	(symbol
 		(lib_id "4900:4900")
-		(at 163.83 96.52 0)
+		(at 153.035 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3307,7 +3307,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaebde15-4809-40c9-9bd1-e49336d973b6")
 		(property "Reference" "J4"
-			(at 180.34 98.4249 0)
+			(at 169.545 100.9649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3316,7 @@
 			)
 		)
 		(property "Value" "4900"
-			(at 180.34 99.06 0)
+			(at 169.545 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3326,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:4900"
-			(at 180.34 191.44 0)
+			(at 169.545 193.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3336,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
-			(at 180.34 291.44 0)
+			(at 169.545 293.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3346,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 96.52 0)
+			(at 153.035 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3355,7 @@
 			)
 		)
 		(property "Height" "10.72"
-			(at 180.34 491.44 0)
+			(at 169.545 493.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3365,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 180.34 591.44 0)
+			(at 169.545 593.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3375,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "4900"
-			(at 180.34 691.44 0)
+			(at 169.545 693.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3385,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-4900"
-			(at 180.34 791.44 0)
+			(at 169.545 793.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,7 +3395,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
-			(at 180.34 891.44 0)
+			(at 169.545 893.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +3405,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 180.34 991.44 0)
+			(at 169.545 993.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3415,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 180.34 1091.44 0)
+			(at 169.545 1093.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3441,7 @@
 	)
 	(symbol
 		(lib_id "4900:4900")
-		(at 124.46 69.85 0)
+		(at 113.665 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3450,7 +3450,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae5c4302-c8b6-4c7c-ba14-7e64830eacba")
 		(property "Reference" "J5"
-			(at 140.97 71.7549 0)
+			(at 130.175 74.2949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3459,7 @@
 			)
 		)
 		(property "Value" "4900"
-			(at 140.97 72.39 0)
+			(at 130.175 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3469,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:4900"
-			(at 140.97 164.77 0)
+			(at 130.175 167.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3479,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
-			(at 140.97 264.77 0)
+			(at 130.175 267.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 69.85 0)
+			(at 113.665 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3498,7 @@
 			)
 		)
 		(property "Height" "10.72"
-			(at 140.97 464.77 0)
+			(at 130.175 467.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3508,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 140.97 564.77 0)
+			(at 130.175 567.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3518,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "4900"
-			(at 140.97 664.77 0)
+			(at 130.175 667.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3528,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-4900"
-			(at 140.97 764.77 0)
+			(at 130.175 767.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3538,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
-			(at 140.97 864.77 0)
+			(at 130.175 867.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3548,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 140.97 964.77 0)
+			(at 130.175 967.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3558,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 140.97 1064.77 0)
+			(at 130.175 1067.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3584,7 @@
 	)
 	(symbol
 		(lib_id "4900:4900")
-		(at 204.47 69.85 0)
+		(at 193.675 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3593,7 +3593,7 @@
 		(fields_autoplaced yes)
 		(uuid "b93d71b8-697e-4ecf-ba44-9668482d8822")
 		(property "Reference" "J7"
-			(at 220.98 71.7549 0)
+			(at 210.185 74.2949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3602,7 @@
 			)
 		)
 		(property "Value" "4900"
-			(at 220.98 72.39 0)
+			(at 210.185 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +3612,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:4900"
-			(at 220.98 164.77 0)
+			(at 210.185 167.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3622,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
-			(at 220.98 264.77 0)
+			(at 210.185 267.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +3632,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 69.85 0)
+			(at 193.675 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3641,7 @@
 			)
 		)
 		(property "Height" "10.72"
-			(at 220.98 464.77 0)
+			(at 210.185 467.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3651,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 220.98 564.77 0)
+			(at 210.185 567.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3661,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "4900"
-			(at 220.98 664.77 0)
+			(at 210.185 667.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3671,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-4900"
-			(at 220.98 764.77 0)
+			(at 210.185 767.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3681,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
-			(at 220.98 864.77 0)
+			(at 210.185 867.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +3691,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 220.98 964.77 0)
+			(at 210.185 967.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3701,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 220.98 1064.77 0)
+			(at 210.185 1067.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +3727,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 67.945 168.91 270)
+		(at 151.765 167.005 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3736,7 +3736,7 @@
 		(fields_autoplaced yes)
 		(uuid "bee659e3-800a-411c-8cb7-6784efd56c2c")
 		(property "Reference" "#PWR038"
-			(at 61.595 168.91 0)
+			(at 145.415 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3745,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 64.135 169.5449 90)
+			(at 147.955 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.945 168.91 0)
+			(at 151.765 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.945 168.91 0)
+			(at 151.765 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3772,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.945 168.91 0)
+			(at 151.765 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3794,7 @@
 	)
 	(symbol
 		(lib_id "4900:4900")
-		(at 163.83 78.74 0)
+		(at 153.035 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3803,7 +3803,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2305888-b448-48b9-bf06-c5f979e9cb6b")
 		(property "Reference" "J13"
-			(at 180.34 80.6449 0)
+			(at 169.545 83.1849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3812,7 @@
 			)
 		)
 		(property "Value" "4900"
-			(at 180.34 81.28 0)
+			(at 169.545 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3822,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:4900"
-			(at 180.34 173.66 0)
+			(at 169.545 176.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +3832,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
-			(at 180.34 273.66 0)
+			(at 169.545 276.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 78.74 0)
+			(at 153.035 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3851,7 @@
 			)
 		)
 		(property "Height" "10.72"
-			(at 180.34 473.66 0)
+			(at 169.545 476.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,7 +3861,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 180.34 573.66 0)
+			(at 169.545 576.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3871,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "4900"
-			(at 180.34 673.66 0)
+			(at 169.545 676.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3881,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-4900"
-			(at 180.34 773.66 0)
+			(at 169.545 776.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3891,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
-			(at 180.34 873.66 0)
+			(at 169.545 876.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3901,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 180.34 973.66 0)
+			(at 169.545 976.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3911,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 180.34 1073.66 0)
+			(at 169.545 1076.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,7 +3937,7 @@
 	)
 	(symbol
 		(lib_id "4900:4900")
-		(at 124.46 87.63 0)
+		(at 113.665 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3946,7 +3946,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdddbc1b-c66c-414c-90cc-ec9842f58d3e")
 		(property "Reference" "J9"
-			(at 140.97 89.5349 0)
+			(at 130.175 92.0749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +3955,7 @@
 			)
 		)
 		(property "Value" "4900"
-			(at 140.97 90.17 0)
+			(at 130.175 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +3965,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:4900"
-			(at 140.97 182.55 0)
+			(at 130.175 185.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +3975,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
-			(at 140.97 282.55 0)
+			(at 130.175 285.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +3985,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 87.63 0)
+			(at 113.665 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3994,7 @@
 			)
 		)
 		(property "Height" "10.72"
-			(at 140.97 482.55 0)
+			(at 130.175 485.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4004,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 140.97 582.55 0)
+			(at 130.175 585.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4014,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "4900"
-			(at 140.97 682.55 0)
+			(at 130.175 685.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4024,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-4900"
-			(at 140.97 782.55 0)
+			(at 130.175 785.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4034,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
-			(at 140.97 882.55 0)
+			(at 130.175 885.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +4044,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 140.97 982.55 0)
+			(at 130.175 985.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4054,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 140.97 1082.55 0)
+			(at 130.175 1085.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4080,7 @@
 	)
 	(symbol
 		(lib_id "4900:4900")
-		(at 204.47 78.74 0)
+		(at 193.675 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4089,7 +4089,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2aacf6e-1e74-4c7c-b928-8bff61480103")
 		(property "Reference" "J10"
-			(at 220.98 80.6449 0)
+			(at 210.185 83.1849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4098,7 @@
 			)
 		)
 		(property "Value" "4900"
-			(at 220.98 81.28 0)
+			(at 210.185 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4108,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:4900"
-			(at 220.98 173.66 0)
+			(at 210.185 176.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4118,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=597"
-			(at 220.98 273.66 0)
+			(at 210.185 276.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +4128,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 78.74 0)
+			(at 193.675 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4137,7 @@
 			)
 		)
 		(property "Height" "10.72"
-			(at 220.98 473.66 0)
+			(at 210.185 476.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4147,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 220.98 573.66 0)
+			(at 210.185 576.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4157,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "4900"
-			(at 220.98 673.66 0)
+			(at 210.185 676.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4167,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-4900"
-			(at 220.98 773.66 0)
+			(at 210.185 776.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +4177,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/4900?qs=lQmX4aIt5iDWRkxqjAIN4A%3D%3D"
-			(at 220.98 873.66 0)
+			(at 210.185 876.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4187,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 220.98 973.66 0)
+			(at 210.185 976.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +4197,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 220.98 1073.66 0)
+			(at 210.185 1076.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4223,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 64.77 143.51 270)
+		(at 148.59 138.43 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4233,7 +4233,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8fe130f-4c16-4294-8a60-51e6d244b8fb")
 		(property "Reference" "#PWR023"
-			(at 58.42 143.51 0)
+			(at 142.24 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4242,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 60.96 143.51 90)
+			(at 144.78 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 143.51 0)
+			(at 148.59 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 143.51 0)
+			(at 148.59 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4269,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 143.51 0)
+			(at 148.59 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4291,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.995 73.66 0)
+		(at 159.385 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4299,7 +4299,7 @@
 		(dnp no)
 		(uuid "e59b7b71-cf8d-4880-bd57-2db1031f9738")
 		(property "Reference" "J1"
-			(at 85.725 71.12 0)
+			(at 158.115 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4308,7 @@
 			)
 		)
 		(property "Value" "A"
-			(at 89.535 73.66 0)
+			(at 161.925 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4317,7 @@
 			)
 		)
 		(property "Footprint" "Connector_My:Power_Wire"
-			(at 86.995 73.66 0)
+			(at 159.385 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.995 73.66 0)
+			(at 159.385 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.995 73.66 0)
+			(at 159.385 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4357,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 77.47 143.51 270)
+		(at 161.29 138.43 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4367,7 +4367,7 @@
 		(fields_autoplaced yes)
 		(uuid "fce2eb31-ad13-4c91-be14-155f705af398")
 		(property "Reference" "#PWR022"
-			(at 73.66 143.51 0)
+			(at 157.48 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4376,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 81.28 143.51 90)
+			(at 165.1 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +4385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 143.51 0)
+			(at 161.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 143.51 0)
+			(at 161.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 143.51 0)
+			(at 161.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

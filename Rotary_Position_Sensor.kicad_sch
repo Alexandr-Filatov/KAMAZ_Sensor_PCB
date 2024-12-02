@@ -5,7 +5,7 @@
 	(uuid "d5ce18df-a7c3-4e72-a6c7-628108ee7f4d")
 	(paper "A4")
 	(title_block
-		(comment 1 "МПСТ.76721.758764.03.М Э3")
+		(comment 1 "МПСТ.6319.758764.03.М Э3")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"

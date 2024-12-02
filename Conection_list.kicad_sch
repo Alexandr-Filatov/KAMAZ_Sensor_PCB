@@ -5,45 +5,9 @@
 	(uuid "d5ce18df-a7c3-4e72-a6c7-628108ee7f4d")
 	(paper "A4")
 	(title_block
-		(comment 1 "МПСТ.76721.758764.03.М Э3")
+		(comment 1 "МПСТ.6319.758764.03.М Э3")
 	)
 	(lib_symbols)
-	(rectangle
-		(start 160.655 83.185)
-		(end 198.755 151.765)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 12c52eb3-e71a-48ab-9792-0b4860ed2abf)
-	)
-	(rectangle
-		(start 113.665 82.55)
-		(end 151.765 132.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2409dc61-1724-4c3d-a38a-551c29455790)
-	)
-	(rectangle
-		(start 45.085 82.55)
-		(end 83.185 132.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4f67e64e-8db4-471a-8c84-99e81ba87f7b)
-	)
 	(rectangle
 		(start 45.085 43.18)
 		(end 83.185 73.66)
@@ -55,6 +19,18 @@
 			(type none)
 		)
 		(uuid 59f7cc99-57fe-466d-b5b8-ca6b1265ec3b)
+	)
+	(rectangle
+		(start 229.235 83.185)
+		(end 267.335 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 64531f76-a980-4b41-8a48-194c4280a2ac)
 	)
 	(rectangle
 		(start 113.665 43.18)
@@ -69,18 +45,6 @@
 		(uuid 6c1ba08d-8541-4c88-95d4-80939df37680)
 	)
 	(rectangle
-		(start 229.235 83.185)
-		(end 267.335 151.765)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 729492e0-599f-4b44-ad10-8c8cc20ee6fb)
-	)
-	(rectangle
 		(start 160.655 43.18)
 		(end 198.755 69.85)
 		(stroke
@@ -91,6 +55,30 @@
 			(type none)
 		)
 		(uuid 7b4722bb-47dc-4757-95d3-92d8dde4d22c)
+	)
+	(rectangle
+		(start 113.665 83.185)
+		(end 151.765 139.065)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 92fcad8f-70db-4de8-adea-13756aec10e5)
+	)
+	(rectangle
+		(start 160.655 83.185)
+		(end 198.755 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 960d6b9e-3c46-4be6-a774-d813c8f9a4cd)
 	)
 	(rectangle
 		(start 229.235 43.18)
@@ -104,9 +92,21 @@
 		)
 		(uuid da9204d6-f5c6-4b96-b0eb-7569167680db)
 	)
-	(text_box "J5:5"
+	(rectangle
+		(start 45.085 83.185)
+		(end 83.185 139.065)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fc7294e2-bf4c-4a31-bde6-1a79c2b86911)
+	)
+	(text_box "J16"
 		(exclude_from_sim no)
-		(at 213.995 113.665 0)
+		(at 83.185 121.285 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -120,27 +120,9 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "02cd468d-14ae-4233-82d3-d7643687d0de")
+		(uuid "00826d3c-d3cd-4040-897d-458d572a895e")
 	)
-	(text_box "J7"
-		(exclude_from_sim no)
-		(at 98.425 120.65 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "0590ade4-608c-423c-83f6-136e861384fb")
-	)
-	(text_box "J5"
+	(text_box "J1"
 		(exclude_from_sim no)
 		(at 198.755 58.42 0)
 		(size 15.24 3.81)
@@ -157,24 +139,6 @@
 			)
 		)
 		(uuid "09ec62a6-f3fc-4bce-ab16-9e71fef2e4eb")
-	)
-	(text_box "J14"
-		(exclude_from_sim no)
-		(at 98.425 109.22 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "0be68795-b3c3-487f-b85c-a35f76d3ca24")
 	)
 	(text_box "A"
 		(exclude_from_sim no)
@@ -195,28 +159,9 @@
 		)
 		(uuid "0c56a58c-7566-43e9-a0cb-d6398a96a9f6")
 	)
-	(text_box "CS_MCU"
+	(text_box "J3"
 		(exclude_from_sim no)
-		(at 229.235 106.045 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "0ed67d64-1b56-43c5-a8c0-d5e85d4c274a")
-	)
-	(text_box "J2"
-		(exclude_from_sim no)
-		(at 83.185 120.65 0)
+		(at 83.185 109.855 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -230,48 +175,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "0f58dee2-6e3e-4225-869c-d202dc0a4df0")
-	)
-	(text_box "J8:1"
-		(exclude_from_sim no)
-		(at 98.425 66.04 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "0fa62d81-2634-4585-9cda-1075e4c50c94")
-	)
-	(text_box "B_OUT"
-		(exclude_from_sim no)
-		(at 53.975 109.22 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "1148b9e1-aa7d-4d1e-919d-11338876de3a")
+		(uuid "0d9ae51d-3460-4224-865d-7c1f12a6be01")
 	)
 	(text_box "PTC_Coil_B"
 		(exclude_from_sim no)
-		(at 113.665 69.85 0)
+		(at 113.665 66.04 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -287,24 +195,6 @@
 			)
 		)
 		(uuid "11a47ae2-241c-4f04-80d6-9a9a1e544525")
-	)
-	(text_box "J10"
-		(exclude_from_sim no)
-		(at 83.185 113.03 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "11d28b5d-e50d-4f56-8e62-aa6ab2f14560")
 	)
 	(text_box "GNDA"
 		(exclude_from_sim no)
@@ -325,27 +215,9 @@
 		)
 		(uuid "11fab106-b2cc-41e4-804f-e04ad6af8247")
 	)
-	(text_box "J4:5"
+	(text_box "Цепь"
 		(exclude_from_sim no)
-		(at 198.755 113.665 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "12d1b8f0-e396-4b32-8c47-2eb94e15945f")
-	)
-	(text_box "A_OUT"
-		(exclude_from_sim no)
-		(at 113.665 101.6 0)
+		(at 229.235 94.615 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -360,7 +232,43 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "154c7f67-2d76-4146-8906-0ab336bbc62c")
+		(uuid "14d93cab-b012-43e6-a8fe-ae35d808d857")
+	)
+	(text_box "J18:4"
+		(exclude_from_sim no)
+		(at 198.755 109.855 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "1563b836-224b-4ca6-8603-075e84b4351d")
+	)
+	(text_box "165:8\n"
+		(exclude_from_sim no)
+		(at 213.995 121.285 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "170df3b6-98ba-4a78-bf0e-b4708b52510a")
 	)
 	(text_box "J8:1"
 		(exclude_from_sim no)
@@ -380,45 +288,9 @@
 		)
 		(uuid "17cb92dd-07d7-44a8-9712-4e65172d02a2")
 	)
-	(text_box "J4:3"
+	(text_box "B_OUT"
 		(exclude_from_sim no)
-		(at 198.755 106.045 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "1c007076-fc1a-4390-b00a-c58807e140b7")
-	)
-	(text_box "J4:2"
-		(exclude_from_sim no)
-		(at 83.185 69.85 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "1cfc1f50-fd67-4a48-a810-43ff494645f6")
-	)
-	(text_box "Temp_coil_C_MCU"
-		(exclude_from_sim no)
-		(at 229.235 109.855 0)
+		(at 53.975 117.475 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -433,49 +305,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "231d5b21-f036-4e84-b94f-0a4a0bfcf90e")
+		(uuid "1817d8b7-854d-4f61-b3c4-e6d92764cbaf")
 	)
-	(text_box "SCLK_MCU"
+	(text_box "J18:10"
 		(exclude_from_sim no)
-		(at 169.545 113.665 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "2331c905-4bbd-4d8c-b5e4-725332baf808")
-	)
-	(text_box "C_OUT"
-		(exclude_from_sim no)
-		(at 53.975 120.65 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "23b63d78-4bd1-47b7-ae44-0dc70843423f")
-	)
-	(text_box "J5:9\n"
-		(exclude_from_sim no)
-		(at 213.995 128.905 0)
+		(at 198.755 132.715 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -489,11 +323,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "23eceb2e-e4cb-4919-8c38-4e369c57eb84")
+		(uuid "18ed27b0-bb22-4e37-ab5a-6a92eaf3c8b5")
 	)
-	(text_box "J10"
+	(text_box "J16:3"
 		(exclude_from_sim no)
-		(at 213.995 62.23 0)
+		(at 213.995 109.855 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -507,44 +341,7 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "2725c81a-7c36-4a78-b0d5-10091498e7c1")
-	)
-	(text_box "C_OUT"
-		(exclude_from_sim no)
-		(at 113.665 120.65 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "272ba0cf-3cc7-469b-ba28-46c0d07304de")
-	)
-	(text_box "<"
-		(exclude_from_sim no)
-		(at 83.185 93.98 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3.5 3.5)
-			)
-		)
-		(uuid "2742b3ec-e7a1-47e8-bbbf-d3dba07606cc")
+		(uuid "190cf8ba-c453-4e32-8e98-03f4570a99dc")
 	)
 	(text_box "<"
 		(exclude_from_sim no)
@@ -562,11 +359,11 @@
 				(size 3.5 3.5)
 			)
 		)
-		(uuid "285dd8fd-4488-442a-923f-69638bf24d62")
+		(uuid "1b643742-bf07-4482-98e1-510d15c98e18")
 	)
-	(text_box "A_OUT"
+	(text_box "Current_B_MCU"
 		(exclude_from_sim no)
-		(at 113.665 105.41 0)
+		(at 169.545 109.855 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -581,7 +378,376 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "292e7375-2bca-4b28-a343-0b71def4c1ce")
+		(uuid "1b8180ad-4ece-46bd-8fe8-e0c65d7c1ca3")
+	)
+	(text_box "J4:2"
+		(exclude_from_sim no)
+		(at 83.185 66.04 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "1cfc1f50-fd67-4a48-a810-43ff494645f6")
+	)
+	(text_box "A_OUT"
+		(exclude_from_sim no)
+		(at 113.665 102.235 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "1d52c0ad-2626-4a8e-a620-7578c7f9eec6")
+	)
+	(text_box "B_OUT"
+		(exclude_from_sim no)
+		(at 53.975 109.855 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "218c8038-47ca-42ff-83a5-229676fe607a")
+	)
+	(text_box "<"
+		(exclude_from_sim no)
+		(at 83.185 94.615 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "21e914f8-5c06-41cb-9051-e680760bd40b")
+	)
+	(text_box "B_OUT"
+		(exclude_from_sim no)
+		(at 113.665 109.855 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "253d2b41-22be-47b3-92ab-c6f5d06efb13")
+	)
+	(text_box "J3"
+		(exclude_from_sim no)
+		(at 213.995 62.23 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2725c81a-7c36-4a78-b0d5-10091498e7c1")
+	)
+	(text_box "J7"
+		(exclude_from_sim no)
+		(at 98.425 125.095 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "27d60dfe-6d6e-4a14-8273-8fe282d6b704")
+	)
+	(text_box "J16:5"
+		(exclude_from_sim no)
+		(at 213.995 117.475 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "28524ddc-0488-4f64-b92e-41effe30ca2a")
+	)
+	(text_box "OUT_MCU"
+		(exclude_from_sim no)
+		(at 229.235 98.425 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2a53ec05-119b-4c50-8270-5893ccad5c6c")
+	)
+	(text_box "J9"
+		(exclude_from_sim no)
+		(at 98.425 98.425 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2ec6fe2f-4c3b-41fa-bdf9-ba38c59a3630")
+	)
+	(text_box "Current_A_MCU"
+		(exclude_from_sim no)
+		(at 229.235 117.475 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2eead6f2-1c6f-4910-9524-af94ca722807")
+	)
+	(text_box "B_OUT"
+		(exclude_from_sim no)
+		(at 53.975 121.285 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2f2e41f1-9689-4a27-9479-a33a37e23fe8")
+	)
+	(text_box "J16:9\n"
+		(exclude_from_sim no)
+		(at 213.995 132.715 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "2f508167-d936-46a3-8eec-e6e76991d4e1")
+	)
+	(text_box "A_OUT"
+		(exclude_from_sim no)
+		(at 53.975 98.425 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "30d78b51-a09b-4b03-8e58-5092da33d855")
+	)
+	(text_box "<"
+		(exclude_from_sim no)
+		(at 98.425 94.615 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "339cb316-1c2b-4263-8525-2321399233f1")
+	)
+	(text_box "J16:10"
+		(exclude_from_sim no)
+		(at 213.995 128.905 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "348e313e-a2fb-415e-8e1b-7beb0fe40d0a")
+	)
+	(text_box "A_OUT"
+		(exclude_from_sim no)
+		(at 113.665 106.045 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "35729191-871b-4998-ad59-34581450643c")
+	)
+	(text_box "J18:8\n"
+		(exclude_from_sim no)
+		(at 198.755 125.095 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "35ba822d-3da9-4a29-8c7b-b9541bfc6038")
+	)
+	(text_box "B_OUT"
+		(exclude_from_sim no)
+		(at 53.975 113.665 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "370acd84-2368-4138-a588-2798f053a218")
+	)
+	(text_box "J13"
+		(exclude_from_sim no)
+		(at 98.425 117.475 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "3b00fa08-f0d2-4670-b117-e0f16d8173ff")
 	)
 	(text_box "<"
 		(exclude_from_sim no)
@@ -599,11 +765,11 @@
 				(size 3.5 3.5)
 			)
 		)
-		(uuid "2b04736d-9e4a-4732-971f-a0a8403c05e3")
+		(uuid "3cea188d-6800-405f-82b9-35addde397e8")
 	)
-	(text_box "J4:11"
+	(text_box "J10"
 		(exclude_from_sim no)
-		(at 198.755 136.525 0)
+		(at 83.185 113.665 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -617,98 +783,7 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "2f65aca9-984a-4ef8-9242-935676413111")
-	)
-	(text_box "Current_C_MCU"
-		(exclude_from_sim no)
-		(at 169.545 132.715 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "339a1e6e-14b2-4b78-b77d-5d63897d8550")
-	)
-	(text_box "J4:7"
-		(exclude_from_sim no)
-		(at 198.755 121.285 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "35206290-52f9-4656-89ec-c4525ab070b8")
-	)
-	(text_box "J5:6\n"
-		(exclude_from_sim no)
-		(at 213.995 117.475 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "360ddb5b-d6eb-414c-85c5-94226c1f8e95")
-	)
-	(text_box "J9"
-		(exclude_from_sim no)
-		(at 98.425 97.79 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "3c4f1253-fa37-432b-9fea-59a62eb07cdd")
-	)
-	(text_box "J10\n"
-		(exclude_from_sim no)
-		(at 98.425 124.46 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "3e5fc924-5890-4089-abc1-4c9813ec8ddf")
+		(uuid "3d540e16-d2f7-410c-af68-7e2abec4beda")
 	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
@@ -729,6 +804,25 @@
 		)
 		(uuid "4078828d-ae7c-46ff-acf0-e73249a41aad")
 	)
+	(text_box "Цепь"
+		(exclude_from_sim no)
+		(at 53.975 94.615 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "416dc58e-8daa-4c93-a282-0f052671888d")
+	)
 	(text_box "PTC_Coil_A"
 		(exclude_from_sim no)
 		(at 53.975 58.42 0)
@@ -748,66 +842,9 @@
 		)
 		(uuid "4582be97-8f2b-4c38-8f95-f20b558af8e6")
 	)
-	(text_box "Current_C_MCU"
+	(text_box "J16:4"
 		(exclude_from_sim no)
-		(at 229.235 132.715 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "4675d605-622a-4568-9a59-99e49cfcc26b")
-	)
-	(text_box "B_OUT"
-		(exclude_from_sim no)
-		(at 113.665 113.03 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "4870ffa0-1bf4-4755-b259-42e343c5bd89")
-	)
-	(text_box "Temp_coil_A_MCU"
-		(exclude_from_sim no)
-		(at 229.235 125.095 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "4c00ac90-9706-46f5-b663-fb7169ffcf88")
-	)
-	(text_box "J9"
-		(exclude_from_sim no)
-		(at 83.185 124.46 0)
+		(at 213.995 106.045 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -821,11 +858,30 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "5166f21d-b174-4ad1-95ee-f49036f8e8f8")
+		(uuid "46e710be-7524-44d7-8744-b2c2e8fbfe43")
 	)
-	(text_box "J4:10"
+	(text_box "GNDA"
 		(exclude_from_sim no)
-		(at 198.755 132.715 0)
+		(at 229.235 121.285 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "481af2fb-d7d4-4709-84ba-cf88f452d041")
+	)
+	(text_box "J8"
+		(exclude_from_sim no)
+		(at 83.185 102.235 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -839,7 +895,45 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "528c647b-91e2-44e2-ab37-fae32f119d7d")
+		(uuid "4f964716-bb4a-479b-bfa6-11303d6c5ed3")
+	)
+	(text_box "A_OUT"
+		(exclude_from_sim no)
+		(at 53.975 102.235 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "51214cb5-8643-4bca-a917-5f7916f4cb9d")
+	)
+	(text_box "GNDA"
+		(exclude_from_sim no)
+		(at 169.545 128.905 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "51e73517-ddb5-4277-a4d5-985cdb9f20bb")
 	)
 	(text_box "C"
 		(exclude_from_sim no)
@@ -860,9 +954,27 @@
 		)
 		(uuid "52db730f-183a-4b93-8bb5-29b1c82ba97b")
 	)
-	(text_box "A_OUT"
+	(text_box "J12"
 		(exclude_from_sim no)
-		(at 113.665 97.79 0)
+		(at 98.425 113.665 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "5394aa42-84ff-49e8-a2da-96666e44095a")
+	)
+	(text_box "+3,3В Аналог."
+		(exclude_from_sim no)
+		(at 169.545 132.715 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -877,9 +989,9 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "548a3ab3-4cfc-4166-a7ca-90be9b87f795")
+		(uuid "539936ec-235c-4f37-9d61-72e6a94c3f5d")
 	)
-	(text_box "J11"
+	(text_box "J3"
 		(exclude_from_sim no)
 		(at 198.755 66.04 0)
 		(size 15.24 3.81)
@@ -897,45 +1009,9 @@
 		)
 		(uuid "549e15c2-0638-4175-9749-86603491887d")
 	)
-	(text_box "J5:12"
+	(text_box "C_OUT"
 		(exclude_from_sim no)
-		(at 213.995 140.335 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "58c133db-b0ba-442a-9db7-2ded356790b4")
-	)
-	(text_box "J4:12"
-		(exclude_from_sim no)
-		(at 198.755 140.335 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "5cf8b728-efa7-4e97-8221-e11b69452ebf")
-	)
-	(text_box "Current_B_MCU"
-		(exclude_from_sim no)
-		(at 169.545 136.525 0)
+		(at 113.665 128.905 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -950,106 +1026,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "5d1a6fbf-dbef-4ecd-bf5c-a936bbe3e8c3")
-	)
-	(text_box "PTC_Coil_С"
-		(exclude_from_sim no)
-		(at 113.665 66.04 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "5f014722-0481-4775-8f45-a146a42a3454")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 229.235 102.235 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "65620d8c-160d-4e93-8596-48b2468677ab")
-	)
-	(text_box "+3,3В Аналог."
-		(exclude_from_sim no)
-		(at 169.545 144.145 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "6629acff-d670-4454-bf51-b12f3810911d")
-	)
-	(text_box "A_OUT"
-		(exclude_from_sim no)
-		(at 53.975 101.6 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "6791257d-c8fb-4e00-91fa-54b551a2d926")
-	)
-	(text_box "Питание +3,3В"
-		(exclude_from_sim no)
-		(at 169.545 98.425 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "693a2fbe-2251-4fba-b1f3-86078dbe779e")
+		(uuid "571d5db7-a726-4060-9dc4-54a266db1d50")
 	)
 	(text_box "J11"
 		(exclude_from_sim no)
-		(at 83.185 105.41 0)
+		(at 98.425 132.715 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1063,11 +1044,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "6e976494-e839-4ee0-86a8-72e12eb9e659")
+		(uuid "583e0fb7-0a76-4870-9bcb-e8a578a10aba")
 	)
-	(text_box "J5:10"
+	(text_box "J18:6\n"
 		(exclude_from_sim no)
-		(at 213.995 132.715 0)
+		(at 198.755 117.475 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1081,11 +1062,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "7073d3ca-fed5-4bd1-832c-79fa10d5c145")
+		(uuid "59c9c8e2-6462-4322-8b90-47cdd03f7c38")
 	)
-	(text_box "J5:2"
+	(text_box "J18:5"
 		(exclude_from_sim no)
-		(at 213.995 102.235 0)
+		(at 198.755 113.665 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1099,30 +1080,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "720b0332-195d-4a8f-9966-370611fa2ec7")
+		(uuid "5c8c497f-f30e-4b1c-a3b4-71a55ce0ed4d")
 	)
-	(text_box "Current_A_MCU"
+	(text_box "J1"
 		(exclude_from_sim no)
-		(at 169.545 140.335 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "7385b95a-14f1-4dac-a03f-2d94de5a20f5")
-	)
-	(text_box "J4:2"
-		(exclude_from_sim no)
-		(at 198.755 102.235 0)
+		(at 83.185 98.425 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1136,7 +1098,25 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "73e2581b-6553-4f30-84a0-1bab1e9754e9")
+		(uuid "61a327fb-0899-464c-b3c6-ae793920cc2b")
+	)
+	(text_box "J18:7"
+		(exclude_from_sim no)
+		(at 198.755 121.285 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "73cc80da-ca06-4686-b5ce-85d777c15f9e")
 	)
 	(text_box "J4:2"
 		(exclude_from_sim no)
@@ -1156,9 +1136,9 @@
 		)
 		(uuid "78077f8e-af47-4716-860d-e42e8a427fd0")
 	)
-	(text_box "Temp_coil_B_MCU"
+	(text_box "B_OUT"
 		(exclude_from_sim no)
-		(at 229.235 117.475 0)
+		(at 113.665 121.285 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1173,29 +1153,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "7899f0a3-553a-45b3-a985-b1dcf5b57399")
-	)
-	(text_box "J6"
-		(exclude_from_sim no)
-		(at 98.425 105.41 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "7aac2706-c137-4cf8-9dd6-e7480d26df24")
+		(uuid "79efb2b5-5eff-4920-82d1-e08cffc4abba")
 	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
-		(at 113.665 93.98 0)
+		(at 169.545 94.615 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1210,11 +1172,30 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "7bd97ae0-366e-488b-8aeb-493800f3ba04")
+		(uuid "7e08fa58-36b1-4495-8400-55525673770a")
 	)
-	(text_box "J4:4"
+	(text_box "Current_A_MCU"
 		(exclude_from_sim no)
-		(at 198.755 109.855 0)
+		(at 169.545 117.475 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "7f33ccbf-bdb9-4660-863f-cb122e33dc9b")
+	)
+	(text_box "J13"
+		(exclude_from_sim no)
+		(at 83.185 117.475 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1228,12 +1209,12 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "8800d31f-f29d-4d9b-96ad-721b5d4ed14e")
+		(uuid "8342d6dd-7108-41ee-bd21-8b7bf7987c9c")
 	)
-	(text_box "PTC_Coil_С"
+	(text_box "J12\n"
 		(exclude_from_sim no)
-		(at 53.975 66.04 0)
-		(size 29.21 3.81)
+		(at 83.185 132.715 0)
+		(size 15.24 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -1243,11 +1224,28 @@
 		)
 		(effects
 			(font
-				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "894e15c1-dea3-483c-9d82-1b878acae4eb")
+		(uuid "835cb05c-d246-4989-a35b-f176cc3725cf")
+	)
+	(text_box "J6"
+		(exclude_from_sim no)
+		(at 98.425 106.045 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "8554ee20-1c78-461d-a99c-8b2dbef9a43c")
 	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
@@ -1268,10 +1266,10 @@
 		)
 		(uuid "8c2822c3-4796-45c1-b37f-f834425ca302")
 	)
-	(text_box "J3"
+	(text_box "B_OUT"
 		(exclude_from_sim no)
-		(at 83.185 109.22 0)
-		(size 15.24 3.81)
+		(at 113.665 117.475 0)
+		(size 29.21 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -1281,12 +1279,13 @@
 		)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "8dfa3fea-7a83-49e7-ab53-df97321535e8")
+		(uuid "8f96f147-061f-455a-91bf-313c04183635")
 	)
-	(text_box "J11"
+	(text_box "J4"
 		(exclude_from_sim no)
 		(at 213.995 66.04 0)
 		(size 15.24 3.81)
@@ -1303,42 +1302,6 @@
 			)
 		)
 		(uuid "9199eb78-3e6d-4610-ac03-70a48ff4449a")
-	)
-	(text_box "J13"
-		(exclude_from_sim no)
-		(at 83.185 116.84 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "9256d2ca-b5e6-4464-8228-94b6f31baeeb")
-	)
-	(text_box "J5:3"
-		(exclude_from_sim no)
-		(at 213.995 106.045 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "9333784b-9154-46ea-b8ee-431a76513fb6")
 	)
 	(text_box "B"
 		(exclude_from_sim no)
@@ -1359,25 +1322,6 @@
 		)
 		(uuid "93dcea93-55b5-47af-a344-3a1a603e96d0")
 	)
-	(text_box "C_OUT"
-		(exclude_from_sim no)
-		(at 53.975 128.27 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "9425c01d-66ef-4f6d-bded-6f996fc5a720")
-	)
 	(text_box "J4:1"
 		(exclude_from_sim no)
 		(at 83.185 58.42 0)
@@ -1396,9 +1340,9 @@
 		)
 		(uuid "94989385-7820-4fff-9ba5-ca457565f9be")
 	)
-	(text_box "J5"
+	(text_box "J4\n"
 		(exclude_from_sim no)
-		(at 98.425 101.6 0)
+		(at 98.425 121.285 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1412,11 +1356,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "96c334ad-758b-406f-b5b9-3681c62a64f7")
+		(uuid "97a84ff6-79a7-45d7-852a-03e83437b91d")
 	)
-	(text_box "SDIO_MCU"
+	(text_box "C_OUT"
 		(exclude_from_sim no)
-		(at 229.235 121.285 0)
+		(at 53.975 128.905 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1431,25 +1375,7 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "990bf774-3418-4187-8576-86a637162c22")
-	)
-	(text_box "<"
-		(exclude_from_sim no)
-		(at 98.425 93.98 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 3.5 3.5)
-			)
-		)
-		(uuid "9bde4c98-a576-4994-9caa-082dece6ecf0")
+		(uuid "9bb680bb-949d-4d92-abc6-8eeecb7f0774")
 	)
 	(text_box "J8:2"
 		(exclude_from_sim no)
@@ -1469,9 +1395,9 @@
 		)
 		(uuid "9d3e0b3e-0a28-4487-9737-b4963a18e1ae")
 	)
-	(text_box "J5:14"
+	(text_box "J2"
 		(exclude_from_sim no)
-		(at 213.995 147.955 0)
+		(at 83.185 125.095 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1485,29 +1411,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "9da3d295-dd2a-4331-8242-e3670371306b")
+		(uuid "9d6501c2-2831-4edd-9a4c-1e7bfdad8c21")
 	)
-	(text_box "J4:9\n"
+	(text_box "GNDA"
 		(exclude_from_sim no)
-		(at 198.755 128.905 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "9e0da927-bcce-4837-8488-5f1a22cc8788")
-	)
-	(text_box "A_OUT"
-		(exclude_from_sim no)
-		(at 53.975 97.79 0)
+		(at 229.235 128.905 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1522,7 +1430,7 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "a033a6b0-b92b-4491-9253-3887021b5194")
+		(uuid "9e964707-dc3c-4a21-b8f9-1b74a185351e")
 	)
 	(text_box "<"
 		(exclude_from_sim no)
@@ -1561,9 +1469,47 @@
 		)
 		(uuid "a2dc28c1-8081-408f-bcb9-c9d513386cf4")
 	)
-	(text_box "J4:8\n"
+	(text_box "C_OUT"
 		(exclude_from_sim no)
-		(at 198.755 125.095 0)
+		(at 53.975 132.715 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "a540bb6c-59f1-49e3-93a1-56e2f6318b11")
+	)
+	(text_box "Current_C_MCU"
+		(exclude_from_sim no)
+		(at 169.545 102.235 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "af450cab-08a4-4532-adba-1c76fe1116b6")
+	)
+	(text_box "J16:6\n"
+		(exclude_from_sim no)
+		(at 213.995 113.665 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1577,11 +1523,29 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "a4b21c89-524c-474c-ac6d-7a3848a03f47")
+		(uuid "af587b9b-2ea4-410b-b46f-55390339bdf7")
 	)
-	(text_box "GNDA"
+	(text_box "J11"
 		(exclude_from_sim no)
-		(at 229.235 147.955 0)
+		(at 83.185 106.045 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "b1e192ad-5670-4850-bf14-6c27c724a07d")
+	)
+	(text_box "Цепь"
+		(exclude_from_sim no)
+		(at 113.665 94.615 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1596,83 +1560,7 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "a691179c-b92e-4d9d-89c8-4e62cf816a4f")
-	)
-	(text_box "Питание +3,3В"
-		(exclude_from_sim no)
-		(at 229.235 98.425 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "a90b6b69-40da-4b31-a16a-36c05d581417")
-	)
-	(text_box "B_OUT"
-		(exclude_from_sim no)
-		(at 113.665 109.22 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "a9a47273-45f7-4f61-b68c-5347d55da3e3")
-	)
-	(text_box "B_OUT"
-		(exclude_from_sim no)
-		(at 113.665 116.84 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "aacda09c-9bbc-4fbc-9b8a-55b0bfa01648")
-	)
-	(text_box "CS_MCU"
-		(exclude_from_sim no)
-		(at 169.545 106.045 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "ad151f58-64ae-4f65-ae02-af733f0ed439")
+		(uuid "b1f7f23f-becd-4e01-b1a4-e90c080329be")
 	)
 	(text_box "GNDA"
 		(exclude_from_sim no)
@@ -1693,27 +1581,9 @@
 		)
 		(uuid "b33c5709-46e9-4e5d-8407-9af2dfcbe9d7")
 	)
-	(text_box "J12"
+	(text_box "Temp_coil_B_MCU"
 		(exclude_from_sim no)
-		(at 98.425 113.03 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "b45fcb98-eec6-472d-8ee6-48a02f426d34")
-	)
-	(text_box "Temp_coil_C_MCU"
-		(exclude_from_sim no)
-		(at 169.545 109.855 0)
+		(at 169.545 106.045 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1728,12 +1598,12 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "b53e7623-ac0e-4dbf-a4cd-0c097ceece94")
+		(uuid "b5a963b3-8ea3-49f9-997e-afeb1053402d")
 	)
-	(text_box "J5:1"
+	(text_box "GNDA"
 		(exclude_from_sim no)
-		(at 213.995 98.425 0)
-		(size 15.24 3.81)
+		(at 169.545 121.285 0)
+		(size 29.21 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -1743,32 +1613,15 @@
 		)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "b67e6182-0c44-4826-9a2c-fbbc99a8f30f")
-	)
-	(text_box "J5:7"
-		(exclude_from_sim no)
-		(at 213.995 121.285 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "bb5f5b57-63d9-4b6c-8b56-efa14537e7ff")
+		(uuid "bb358a6d-3fce-4a95-a11a-447602bdd4c1")
 	)
 	(text_box "PTC_Coil_B"
 		(exclude_from_sim no)
-		(at 53.975 69.85 0)
+		(at 53.975 66.04 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1785,9 +1638,9 @@
 		)
 		(uuid "bc93de42-1c38-4f81-ab86-25a23c7cf83a")
 	)
-	(text_box "B_OUT"
+	(text_box "OUT_MCU"
 		(exclude_from_sim no)
-		(at 53.975 113.03 0)
+		(at 169.545 98.425 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1802,7 +1655,62 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "c2162ead-c5a2-4c10-9079-39e418be4ac0")
+		(uuid "bd4969b5-2ac6-4397-9fa0-d803de87fa42")
+	)
+	(text_box "+3,3В Аналог."
+		(exclude_from_sim no)
+		(at 229.235 132.715 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "bdb19b70-d04b-43fc-bc1d-59d1e851c1d3")
+	)
+	(text_box "J10\n"
+		(exclude_from_sim no)
+		(at 98.425 128.905 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "bf306848-7950-4f22-ad85-b03af1836303")
+	)
+	(text_box "J18:9\n"
+		(exclude_from_sim no)
+		(at 198.755 128.905 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "c0d163e9-ab62-43a6-8b65-9530cf6cbe94")
 	)
 	(text_box "<"
 		(exclude_from_sim no)
@@ -1840,9 +1748,9 @@
 		)
 		(uuid "c584fe95-5bad-41ab-a6b6-7dd75c56038c")
 	)
-	(text_box "J5:8\n"
+	(text_box "J18:2"
 		(exclude_from_sim no)
-		(at 213.995 125.095 0)
+		(at 198.755 102.235 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1856,7 +1764,44 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "c8c5585a-0a7e-4810-a486-39c196328c08")
+		(uuid "c5a34234-f0bd-4851-a9b1-38c715cc1bce")
+	)
+	(text_box "J16:2"
+		(exclude_from_sim no)
+		(at 213.995 98.425 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "c695f0af-27b3-448c-adab-0155c51f6203")
+	)
+	(text_box "Temp_coil_B_MCU"
+		(exclude_from_sim no)
+		(at 229.235 106.045 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "c9e9cb31-e5b8-4939-91d7-bd3e4968d66d")
 	)
 	(text_box "<"
 		(exclude_from_sim no)
@@ -1876,9 +1821,9 @@
 		)
 		(uuid "ca7aabf0-25d1-4c5f-a38d-12fbeaad8ef4")
 	)
-	(text_box "J5:4"
+	(text_box "J5"
 		(exclude_from_sim no)
-		(at 213.995 109.855 0)
+		(at 98.425 102.235 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1892,11 +1837,29 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "cc5124d1-3f9c-4756-9e75-629f4922b751")
+		(uuid "cac5be51-8d8b-4195-af22-e1c1a0db7b6d")
 	)
-	(text_box "OUT_MCU"
+	(text_box "J16:1"
 		(exclude_from_sim no)
-		(at 169.545 128.905 0)
+		(at 213.995 102.235 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "cda6c51a-5a6d-4823-b5d1-6bbed3ea52c8")
+	)
+	(text_box "C_OUT"
+		(exclude_from_sim no)
+		(at 113.665 125.095 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1911,11 +1874,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "ce9cf536-8072-4f4c-a899-1070a8a98a17")
+		(uuid "cf615f88-0714-4e57-ad00-dcd5f972c211")
 	)
 	(text_box "J8:2"
 		(exclude_from_sim no)
-		(at 98.425 69.85 0)
+		(at 98.425 66.04 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1930,6 +1893,25 @@
 			)
 		)
 		(uuid "d07e77c7-44ff-4814-a971-0954c9aed48d")
+	)
+	(text_box "A_OUT"
+		(exclude_from_sim no)
+		(at 53.975 106.045 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "d0f69002-f70b-48f1-8bab-d28d89cd2c3e")
 	)
 	(text_box "<"
 		(exclude_from_sim no)
@@ -1968,46 +1950,9 @@
 		)
 		(uuid "d3963481-ab4b-4f37-a929-e420976e429e")
 	)
-	(text_box "SDIO_MCU"
-		(exclude_from_sim no)
-		(at 169.545 121.285 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "d39adb33-f228-49ae-a0e7-62be2448358f")
-	)
-	(text_box "J4:6\n"
-		(exclude_from_sim no)
-		(at 198.755 117.475 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "d4bb40cd-14dc-4cdd-8fd3-94eaaabc66ea")
-	)
 	(text_box "C_OUT"
 		(exclude_from_sim no)
-		(at 113.665 128.27 0)
+		(at 113.665 132.715 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2022,11 +1967,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "d51e812a-bba7-498a-83fe-208f33289137")
+		(uuid "dad33e04-24fb-436d-a773-05d62d1380e4")
 	)
-	(text_box "Temp_coil_B_MCU"
+	(text_box "+3,3В Аналог."
 		(exclude_from_sim no)
-		(at 169.545 117.475 0)
+		(at 229.235 125.095 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2041,103 +1986,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "d7ec144d-aec6-474d-b257-2a016bbbe319")
-	)
-	(text_box "J4:1"
-		(exclude_from_sim no)
-		(at 83.185 66.04 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "db198426-3272-4cb9-8086-0d8100a6520d")
-	)
-	(text_box "J5:11"
-		(exclude_from_sim no)
-		(at 213.995 136.525 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "de9d080a-b515-41c3-97c6-2117316d7492")
-	)
-	(text_box "Current_B_MCU"
-		(exclude_from_sim no)
-		(at 229.235 136.525 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "deebee50-ddde-40df-80fc-5a2bfd906318")
-	)
-	(text_box "GNDA"
-		(exclude_from_sim no)
-		(at 169.545 147.955 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "e0472085-eec1-4bb4-a2ac-4896fb6a24ff")
-	)
-	(text_box "J8"
-		(exclude_from_sim no)
-		(at 83.185 101.6 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "e158add7-dd50-4e80-b50e-efd249d6511d")
+		(uuid "dadc06cc-91d1-44fa-ac07-1f72c147bfe7")
 	)
 	(text_box "A_OUT"
 		(exclude_from_sim no)
-		(at 53.975 105.41 0)
+		(at 113.665 98.425 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2152,30 +2005,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "e22c0021-45cd-43e3-9547-5327d881d73b")
+		(uuid "dbaae77e-b0c6-409a-a7f4-ec67ce99c6f7")
 	)
-	(text_box "Temp_coil_A_MCU"
+	(text_box "J9"
 		(exclude_from_sim no)
-		(at 169.545 125.095 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "e5789e67-64fe-40de-80d1-1b2b1cd8c54b")
-	)
-	(text_box "J5:13\n"
-		(exclude_from_sim no)
-		(at 213.995 144.145 0)
+		(at 83.185 128.905 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -2189,9 +2023,65 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "e6cdbe4c-b011-473f-8ad7-21030906ea48")
+		(uuid "dd6e9e4d-121c-4f78-ae12-4001e53e28ff")
 	)
-	(text_box "J10"
+	(text_box "C_OUT"
+		(exclude_from_sim no)
+		(at 53.975 125.095 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "df405b67-13b6-41d4-a34a-b0fde2316866")
+	)
+	(text_box "Temp_coil_A_MCU"
+		(exclude_from_sim no)
+		(at 229.235 113.665 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "e5176601-753c-4eca-8c2f-812e0ad0fee9")
+	)
+	(text_box "J14"
+		(exclude_from_sim no)
+		(at 98.425 109.855 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "e6320ec0-a887-4c3e-8a68-5d53bfa40dc8")
+	)
+	(text_box "J2"
 		(exclude_from_sim no)
 		(at 198.755 62.23 0)
 		(size 15.24 3.81)
@@ -2209,9 +2099,9 @@
 		)
 		(uuid "e8f0f0c5-6abc-4219-8787-483ccdc9f3e4")
 	)
-	(text_box "J4:14"
+	(text_box "J18:3"
 		(exclude_from_sim no)
-		(at 198.755 147.955 0)
+		(at 198.755 106.045 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -2225,7 +2115,26 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "ebc6c589-2ae3-4491-8d79-41a523be95a8")
+		(uuid "ea419ca9-4d82-4185-a522-3ad115e4b7f1")
+	)
+	(text_box "B_OUT"
+		(exclude_from_sim no)
+		(at 113.665 113.665 0)
+		(size 29.21 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "eb4e78b6-09cd-425f-bfc9-ef6f4521ab36")
 	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
@@ -2246,24 +2155,6 @@
 		)
 		(uuid "ec9e4004-975f-462e-9a0e-6b5bb560a26f")
 	)
-	(text_box "J12\n"
-		(exclude_from_sim no)
-		(at 83.185 128.27 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "eed81575-83d7-4abe-80da-06b4c157fc99")
-	)
 	(text_box "PTC_Coil_A"
 		(exclude_from_sim no)
 		(at 113.665 58.42 0)
@@ -2283,27 +2174,9 @@
 		)
 		(uuid "ef461c76-69c1-4173-9a32-218d22710a88")
 	)
-	(text_box "J4:13\n"
+	(text_box "Temp_coil_A_MCU"
 		(exclude_from_sim no)
-		(at 198.755 144.145 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "f05ea913-6f5e-4758-868b-656d7854e988")
-	)
-	(text_box "+3,3В Аналог."
-		(exclude_from_sim no)
-		(at 229.235 144.145 0)
+		(at 169.545 113.665 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2318,12 +2191,12 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "f067f8ec-76fc-4411-aa19-cc03b6e01ef2")
+		(uuid "f0a68b5a-8b0d-486d-9c66-30cd33c4e572")
 	)
-	(text_box "J1"
+	(text_box "Current_B_MCU"
 		(exclude_from_sim no)
-		(at 83.185 97.79 0)
-		(size 15.24 3.81)
+		(at 229.235 109.855 0)
+		(size 29.21 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -2333,28 +2206,11 @@
 		)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "f078726e-a109-4dd7-9f07-92af260c4762")
-	)
-	(text_box "J4:1"
-		(exclude_from_sim no)
-		(at 198.755 98.425 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "f0f8c197-f7cd-42b8-9031-6dda19fd005d")
+		(uuid "f17c8adf-c464-475c-aa10-a283f1938bd9")
 	)
 	(text_box "C"
 		(exclude_from_sim no)
@@ -2375,10 +2231,10 @@
 		)
 		(uuid "f19b9e11-4936-496f-b950-b46db03965a7")
 	)
-	(text_box "Current_A_MCU"
+	(text_box "J16:7"
 		(exclude_from_sim no)
-		(at 229.235 140.335 0)
-		(size 29.21 3.81)
+		(at 213.995 125.095 0)
+		(size 15.24 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -2388,125 +2244,10 @@
 		)
 		(effects
 			(font
-				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "f24be7fb-667c-48a7-a21b-11511eaec05a")
-	)
-	(text_box "Цепь"
-		(exclude_from_sim no)
-		(at 169.545 94.615 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "f26e7d86-3e84-46b8-b1bc-f3668d17ccd1")
-	)
-	(text_box "B_OUT"
-		(exclude_from_sim no)
-		(at 53.975 116.84 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "f26e9ae1-49a8-42c1-a5e7-cb34258cbb95")
-	)
-	(text_box "Цепь"
-		(exclude_from_sim no)
-		(at 229.235 94.615 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "f27691d0-2aa5-4fdb-acdf-b2add1b0e637")
-	)
-	(text_box "Цепь"
-		(exclude_from_sim no)
-		(at 53.975 93.98 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "f393d32a-9773-4638-8dba-d5eeaed55ff6")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 169.545 102.235 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "f3ea412c-8c31-4656-bf0b-e90e0072a2fa")
-	)
-	(text_box "OUT_MCU"
-		(exclude_from_sim no)
-		(at 229.235 128.905 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "f4bc4595-514f-44be-b16a-faf6bda7e7b5")
+		(uuid "f1c1d1a7-792a-4834-b177-f98c6da90803")
 	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
@@ -2527,9 +2268,9 @@
 		)
 		(uuid "f4fa5927-8e33-4db3-93ce-7dabcafd6422")
 	)
-	(text_box "SCLK_MCU"
+	(text_box "Current_C_MCU"
 		(exclude_from_sim no)
-		(at 229.235 113.665 0)
+		(at 229.235 102.235 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2544,11 +2285,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "f5b19480-0d98-4c09-b768-1465bd6ea469")
+		(uuid "f641fb38-d4e3-4433-9dd1-7746dcb4a5f1")
 	)
-	(text_box "J13"
+	(text_box "J18:1"
 		(exclude_from_sim no)
-		(at 98.425 116.84 0)
+		(at 198.755 98.425 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -2562,11 +2303,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "f6e56e14-721d-4748-a6bb-b77b73186509")
+		(uuid "f971d4c2-98db-4c7f-9b8a-35c011a4fbc9")
 	)
-	(text_box "C_OUT"
+	(text_box "+3,3В Аналог."
 		(exclude_from_sim no)
-		(at 113.665 124.46 0)
+		(at 169.545 125.095 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2581,66 +2322,7 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "fc38fd93-53f3-41fb-bb0a-2d83a97afa7b")
-	)
-	(text_box "J11"
-		(exclude_from_sim no)
-		(at 98.425 128.27 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "fcb53256-99fc-4b57-8e89-fb3d1f9ce2dd")
-	)
-	(text_box "C_OUT"
-		(exclude_from_sim no)
-		(at 53.975 124.46 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "fe65fa08-4f24-472a-b3af-01152682751a")
-	)
-	(text "A4"
-		(exclude_from_sim no)
-		(at 61.595 82.55 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "240174a7-edd0-461d-b02a-0f4a8c100a7a")
-	)
-	(text "Узел управления\n"
-		(exclude_from_sim no)
-		(at 230.505 89.535 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "27fcfb47-3168-41f7-b42e-ffc5228e6095")
+		(uuid "fa902406-c03f-4aaa-ad64-b024389eb438")
 	)
 	(text "Узел соединительный"
 		(exclude_from_sim no)
@@ -2653,38 +2335,28 @@
 		)
 		(uuid "344af4b6-9362-4400-aa3d-f4c42b11657f")
 	)
-	(text "Узел соединительный"
+	(text "Соединительная часть"
 		(exclude_from_sim no)
-		(at 46.355 88.9 0)
+		(at 46.355 89.535 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
-		(uuid "5ddf750a-f2ea-4f02-a7fd-33c4c3418c71")
+		(uuid "419d2218-7ac3-43ab-a34a-da22674e58bd")
 	)
-	(text "Узел измерительный\n"
+	(text "A4"
 		(exclude_from_sim no)
-		(at 114.935 88.9 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "9af079bc-0ac1-4eda-9101-9694b93df238")
-	)
-	(text "A3"
-		(exclude_from_sim no)
-		(at 130.175 82.55 0)
+		(at 61.595 83.185 0)
 		(effects
 			(font
 				(size 3.5 3.5)
 			)
 			(justify left bottom)
 		)
-		(uuid "a67b6f02-698a-413b-b925-0f45e6ad08c9")
+		(uuid "41e68bae-4be2-4c1e-9fc6-a1d377b7addb")
 	)
 	(text "A2"
 		(exclude_from_sim no)
@@ -2695,7 +2367,52 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ad50b3e6-46d1-4fa8-acd6-688fe7510093")
+		(uuid "5c0eadb4-c2b0-4ee0-b9db-0344ebcf426a")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 130.175 83.185 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cd08d40-762a-40a6-ae62-700ce34db811")
+	)
+	(text "Узел управления\n"
+		(exclude_from_sim no)
+		(at 230.505 89.535 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "7233a997-ebb4-41a8-b708-bc5b7afe5ff9")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 177.165 83.185 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "78cea16c-a3ae-4509-80f2-c30e6571cc17")
+	)
+	(text "Измерительная часть"
+		(exclude_from_sim no)
+		(at 114.935 89.535 0)
+		(effects
+			(font
+				(face "GOST Common")
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0bc6096-9b5d-428b-a627-e3657acec716")
 	)
 	(text "A4"
 		(exclude_from_sim no)
@@ -2721,17 +2438,6 @@
 	)
 	(text "A3"
 		(exclude_from_sim no)
-		(at 177.165 83.185 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "c924efe4-3483-435a-a428-6a6954504200")
-	)
-	(text "A3"
-		(exclude_from_sim no)
 		(at 177.165 43.18 0)
 		(effects
 			(font
@@ -2741,7 +2447,7 @@
 		)
 		(uuid "cf7f7067-4c9d-40bd-831a-b6a71898a6a7")
 	)
-	(text "Узел управления"
+	(text "Узел силовой"
 		(exclude_from_sim no)
 		(at 230.505 49.53 0)
 		(effects
@@ -2761,9 +2467,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e25472fa-92d8-4c40-af73-ea5bade5bdb2")
+		(uuid "e443ec80-7b2c-42da-9e92-617512acf0b1")
 	)
-	(text "A2"
+	(text "A1"
 		(exclude_from_sim no)
 		(at 245.745 43.18 0)
 		(effects
